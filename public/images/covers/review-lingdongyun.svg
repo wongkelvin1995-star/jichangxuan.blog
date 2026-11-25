@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="灵动云测评">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#2563EB" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1032" cy="444" r="151" stroke="#2563EB" stroke-opacity="0.23" fill="none" stroke-width="1.5"/><circle cx="833" cy="457" r="114" stroke="#2563EB" stroke-opacity="0.16" fill="none" stroke-width="1.5"/><circle cx="837" cy="376" r="203" stroke="#2563EB" stroke-opacity="0.25" fill="none" stroke-width="1.5"/><path d="M-20 528 C 260 368, 480 513, 760 313 S 1100 468, 1240 388" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 588 C 300 448, 520 553, 800 393 S 1120 548, 1240 468" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="863" y="369" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1033" y="431" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="835" cy="158" r="6" fill="#2563EB" fill-opacity="0.44"/><circle cx="966" cy="298" r="7" fill="#2563EB" fill-opacity="0.43"/><circle cx="727" cy="417" r="5" fill="#2563EB" fill-opacity="0.51"/><circle cx="912" cy="416" r="8" fill="#2563EB" fill-opacity="0.44"/><circle cx="1072" cy="124" r="5" fill="#2563EB" fill-opacity="0.29"/><circle cx="997" cy="236" r="3" fill="#2563EB" fill-opacity="0.58"/>
+  <rect x="900" y="96" width="228" height="56" rx="28" fill="#2563EB" fill-opacity="0.12"/><text x="1014" y="133" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#2563EB">2026 测评</text>
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#2563EB"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#2563EB">REVIEW · LINGDONGYUN</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="96" font-weight="700" fill="#14273D" letter-spacing="-1">灵动云测评</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">资料与三份带日期的测试记录</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

@@ -1,0 +1,20 @@
+# Cloudflare Pages / Netlify 响应头（静态导出模式使用；Node 模式由 next.config.ts 的 headers() 提供）
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=604800
+
+# Cloudflare Pages 的默认 *.pages.dev 域名不参与索引，避免与正式域名重复收录
+# （占位符不匹配“.”，所以分支别名 <branch>.<project>.pages.dev 需要单独一条）
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex

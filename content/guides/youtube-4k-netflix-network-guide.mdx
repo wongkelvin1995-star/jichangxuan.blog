@@ -1,0 +1,207 @@
+---
+title: "看 YouTube 4K 与 Netflix 需要多少网速和流量"
+slug: "youtube-4k-netflix-network-guide"
+description: "按 YouTube 与 Netflix 帮助中心的建议网速和每小时流量（2026-11-16 查阅），换算出每天看 1–3 小时的每月流量；说明片库与“送中”如何由出口地区决定，引用本站灵动云的检测与实测记录，并列出用机场看流媒体前要确认的五件事。"
+category: "guides"
+tags: ["YouTube", "Netflix", "4K", "流媒体", "流量估算"]
+author: "editorial"
+publishedAt: "2026-11-16"
+updatedAt: "2026-11-25"
+cover: "/images/covers/guides.svg"
+coverAlt: "使用教程栏目封面：蓝色线条与抽象图形"
+draft: false
+featured: false
+related: ["node-regions-explained", "lingdongyun-2026-11-01-node-unlock-check", "lingdongyun-2026-11-10-japan-node-report", "budget-airport-plans-2026", "multi-device-setup"]
+summaryPoints:
+  - "官方建议（2026-11-16 查阅）：YouTube 4K 持续 20 Mbps、1080p 5 Mbps；Netflix 4K 15 Mbps 或更高、1080p 5 Mbps 或更高。"
+  - "Netflix 写明每台设备每小时 HD 最多 3 GB、4K 最多 7 GB；每天看 2 小时 4K，按 30 天算最多约 420 GB。"
+  - "片库与地区由服务按出口 IP 判断：本站 2026-11-01 检测中，灵动云台湾、新加坡节点的 YouTube 被标为“送中(CN)”，美国节点的 Netflix 被判为 HK。"
+  - "机场优选目前没有任何品牌的 4K 播放测试；现有播放记录只到灵动云的 720p。"
+  - "看流媒体前确认五件事：晚高峰持续速度、出口地区、每月流量与倍率、设备数、设备与账户是否支持 4K。"
+sources:
+  - label: "YouTube 帮助中心：System requirements & supported devices for YouTube"
+    date: "2026-11-16"
+    note: "各清晰度的建议持续网速；2026-11-24 复核，内容一致"
+    url: "https://support.google.com/youtube/answer/78358"
+  - label: "YouTube 帮助中心：Premium memberships available locations & travel policies"
+    date: "2026-11-16"
+    note: "Premium 可用地区（未列中国内地）与离开订阅国家时的权益说明；2026-11-24 复核，内容一致"
+    url: "https://support.google.com/youtube/answer/6307365"
+  - label: "Netflix 帮助中心：Netflix-recommended internet speeds"
+    date: "2026-11-16"
+    note: "720p、1080p、4K 的建议网速；2026-11-24 复核，内容一致"
+    url: "https://help.netflix.com/en/node/306"
+  - label: "Netflix 帮助中心：How to control how much data Netflix uses"
+    date: "2026-11-16"
+    note: "每小时、每台设备的数据用量与手机数据设置；2026-11-24 复核，内容一致"
+    url: "https://help.netflix.com/en/node/87"
+  - label: "Netflix 帮助中心：How to get the best video quality"
+    date: "2026-11-16"
+    note: "套餐、设备、HDMI 接口与数据用量设置要求；2026-11-24 复核，内容一致"
+    url: "https://help.netflix.com/en/node/13444"
+  - label: "灵动云 60 个节点解锁检测记录（MiaoKo 截图）"
+    date: "2026-11-01"
+    note: "YouTube 与 Netflix 地区标签"
+    url: "/speedtest/lingdongyun-2026-11-01-node-unlock-check/"
+  - label: "灵动云日本5 节点实测报告（站长实测）"
+    date: "2026-11-10"
+    note: "下载速度与 YouTube 720p 详细统计信息"
+    url: "/speedtest/lingdongyun-2026-11-10-japan-node-report/"
+  - label: "灵动云资料第十节：晚高峰文字记录"
+    date: "2026-10-28"
+    note: "资料提供方的文字记录，无截图，工具未注明；摘要见灵动云测评"
+    url: "/reviews/lingdongyun-review-2026/"
+  - label: "灵动云、FLYV 飞V、暮光加速品牌资料"
+    date: "2026-11-09"
+    note: "资料中列出的流媒体平台、设备数与相关说明；FLYV 飞V 关于电视盒子、软路由的设备说明"
+  - label: "微风网络、飞猫云、浪网、隐形人品牌资料"
+    date: "2026-11-13"
+    note: "资料中列出的流媒体平台、设备数与相关说明"
+  - label: "大佬云、无忧链接、Firefly、全球云品牌资料"
+    date: "2026-11-13"
+    note: "资料中列出的流媒体平台、设备数与相关说明；全球云关于支持系统（含路由器）的说明"
+  - label: "梯子云品牌资料（站长整理）"
+    date: "2026-11-23"
+    note: "资料中关于流媒体分档、YouTube HD / 4K 画质、设备数与路由器的说明；资料自述部分信息来自公开网页与第三方后台快照"
+disclosure: "文中提到的品牌均与机场优选存在推广合作；本文不含推广链接，品牌名链接到本站资料页。"
+faq:
+  - q: "看 4K 视频需要多少网速？"
+    a: "按官方帮助页面（2026-11-16 查阅），YouTube 4K 建议持续 20 Mbps，Netflix 4K 建议 15 Mbps 或更高。用机场时要看晚高峰能否一直保持，一次测速的峰值说明不了能否稳定播放。"
+  - q: "每天看 2 小时 Netflix 4K，一个月要多少流量？"
+    a: "Netflix 帮助中心写明 4K 每台设备每小时最多 7 GB。按 7 GB × 2 小时 × 30 天计算，最多 420 GB；画质设为自动或网速不够时，实际会少一些。"
+  - q: "YouTube 显示“送中”还能看吗？"
+    a: "检测里标为“送中(CN)”的节点并不代表不能播放，只是 YouTube 把出口判为中国内地，地区化内容按 CN 处理。YouTube 的 Premium 可用地区没有中国内地，Premium 用户可能受影响，本站未测试。"
+  - q: "机场优选测过哪家机场能流畅看 4K 吗？"
+    a: "没有。本站只有灵动云的记录：2026-11-10 日本5 节点的 YouTube 720p 播放统计和 2026-11-01 的地区检测，都没有 1080p 或 4K 播放测试；其他品牌本站暂无测试记录。"
+changes:
+  - date: "2026-11-25"
+    note: "扩为首页推荐榜 12 家：流媒体说法表新增大佬云、梯子云、无忧链接、Firefly、全球云五行，表后关于 4K 与片库地区的说明、购买前第 4 项的设备数与设备类型说明按 12 家重写；低价套餐对比的链接文字改为 12 家；2026-10-28 晚高峰文字记录注明为品牌资料附带、不是本站测试。"
+  - date: "2026-11-24"
+    note: "复核 YouTube、Netflix 官方帮助页（数值未变），YouTube 每小时流量改称粗略估算，补充 YouTube 对电影和电视节目的网速说明"
+---
+
+想用机场看 YouTube 4K 或 Netflix，先要回答两个问题：网速够不够，流量够不够。本文用 YouTube 与 Netflix 帮助中心的官方数字（2026-11-16 查阅）把这两件事算清楚，再说明片库和“送中”怎样由出口地区决定，最后列出购买前要确认的五件事。
+
+先说明一点：机场优选目前没有任何品牌的 4K 播放测试。文中的播放与速度数据只来自灵动云的带日期记录，局限写在对应段落里。
+
+## 官方建议网速
+
+| 画质 | YouTube 建议持续速度 | Netflix 建议速度 |
+| --- | --- | --- |
+| 4K | 20 Mbps | 15 Mbps 或更高 |
+| 1080p | 5 Mbps | 5 Mbps 或更高 |
+| 720p | 2.5 Mbps | 3 Mbps 或更高 |
+| 480p | 1.1 Mbps | 页面未列 |
+| 360p | 0.7 Mbps | 页面未列 |
+
+YouTube 帮助页称这些是播放各格式的大致建议速度，并提到电影、电视节目、直播等部分付费内容需要更快的连接和更强的处理能力；它在“电影和电视节目”的要求里只写了 1 Mbps 以上的网速，没有为这类内容另给 4K 数值。Netflix 帮助页则建议，想要对应的画质，需要稳定达到这些网速。
+
+把这些数字用到机场上，有三点要换算：
+
+- Mbps 是兆比特每秒，多数测速网站显示的下载速度就是这个单位；下载软件里的 MB/s 要乘以 8 才能和它比较。
+- 表里是一路播放的需求。两台设备同时看 4K，按 YouTube 的建议约需 40 Mbps（20 × 2，本站推算）。
+- YouTube 写的是“持续”速度。用机场时要看常用时段，尤其是晚高峰能否一直保持，一次测速的峰值说明不了问题。自测方法见[机场晚高峰变慢怎么办](/speedtest/peak-hour-stability-guide/)。
+
+## 每小时用多少流量
+
+### Netflix：官方给出了上限
+
+Netflix 帮助中心按“每小时、每台设备”列出数据用量：
+
+| 数据用量设置 | 画质 | 每小时最多 |
+| --- | --- | --- |
+| 低 | 基本画质 | 0.3 GB |
+| 中 | 标准画质 | 0.7 GB |
+| 高 | 标清（SD） | 1 GB |
+| 高 | 高清（HD） | 3 GB |
+| 高 | 超高清（4K） | 7 GB |
+| 自动 | 按网速自动调整 | 页面未给数值 |
+
+手机的移动数据设置另有说明：“自动”约每 GB 可看 4 小时，“节省数据”约每 GB 可看 6 小时，“最大数据”可能每 20 分钟就用掉 1 GB 或更多。
+
+### YouTube：本站按建议速度推算
+
+上面引用的 YouTube 帮助页没有给出每小时流量，本站用建议速度换算：每小时流量（GB）= 速度（Mbps）× 3600 秒 ÷ 8 ÷ 1000。
+
+- 4K：20 × 3600 ÷ 8 ÷ 1000 = 9 GB
+- 1080p：5 × 3600 ÷ 8 ÷ 1000 = 2.25 GB
+- 720p：2.5 × 3600 ÷ 8 ÷ 1000 ≈ 1.1 GB
+
+这里假设播放器一直按建议速度下载。实际用量取决于视频本身的码率、帧率和自动画质调整，会和这个数有出入，只当作粗略估算。
+
+## 换算成每月流量
+
+下表的月用量由本站推算：假设一个月 30 天、一台设备、全程同一画质，按 1 GB = 1000 MB 计算。
+
+| 每天观看 | Netflix 4K（7 GB/时） | Netflix HD（3 GB/时） | YouTube 4K（9 GB/时，推算） | YouTube 1080p（2.25 GB/时，推算） |
+| --- | --- | --- | --- | --- |
+| 1 小时 | 210 GB | 90 GB | 270 GB | 约 68 GB |
+| 2 小时 | 420 GB | 180 GB | 540 GB | 135 GB |
+| 3 小时 | 630 GB | 270 GB | 810 GB | 约 203 GB |
+
+算法举例：Netflix 4K 每天 2 小时，7 GB × 2 小时 × 30 天 = 420 GB。Netflix 两列是按官方上限算的，YouTube 两列是按建议速度推算的粗略值；画质设为自动或网速不够时，实际会少一些。网页、AI 工具、系统更新等其他用量没有算进去。
+
+拿这些数字对照套餐时，再看三件事：流量是否每月重置、未用完是否结转；节点倍率是不是 1x，倍率高于 1 会多扣流量，见[机场流量倍率是什么](/compare/traffic-multiplier-explained/)；按预算挑档位，见[预算有限怎么选：12 家机场低价套餐价格对比](/compare/budget-airport-plans-2026/)。全家几台设备一起看，带宽和流量都要叠加，见[多设备共用机场](/guides/multi-device-setup/)。
+
+## 片库和“送中”：由出口地区决定
+
+YouTube 的地区化内容、Netflix 的片库，都由服务按出口 IP 判定的地区决定，节点名只是参考，原理见[机场节点地区怎么选](/speedtest/node-regions-explained/)。
+
+本站 2026-11-01 的 MiaoKo 检测（灵动云，珠海联通，19:12，60 个节点）中，这两项服务按地区汇总如下：
+
+| 节点名 | 节点数 | YouTube | Netflix |
+| --- | --- | --- | --- |
+| 香港 | 20 | 解锁(HK) | 解锁(HK) |
+| 台湾 | 10 | 送中(CN) | 解锁(ES) |
+| 日本 | 10 | 解锁(JP) | 解锁(JP) |
+| 新加坡 | 10 | 送中(CN) | 解锁(SG) |
+| 美国 | 10 | 解锁(US) | 解锁(HK) |
+
+怎么读这张表：
+
+- “送中(CN)”指 YouTube 把出口判定为中国内地，地区化内容按 CN 处理，并不代表不能播放。不过 YouTube 的 Premium 可用地区页面（2026-11-16 查阅）没有列出中国内地，并写明离开订阅国家时，会员权益可能随所在地变化；Premium 用户连到这类节点会怎样，本站没有测试。
+- 台湾节点的 Netflix 被判为 ES（西班牙），美国节点被判为 HK。想看台区或美区片库，这两组节点在检测当时都对不上；要看哪个地区的片库，就选被判为那个地区的节点。
+- 局限：单次检测，截图自注“本测试为试验性结果，仅供参考”；标签不等于每部片都能播放，不同时间的结果也可能变化。完整数据见[灵动云 60 个节点解锁检测记录](/speedtest/lingdongyun-2026-11-01-node-unlock-check/)。
+
+AI 工具的地区判定另有一套名单，见[AI 工具选哪个节点](/speedtest/ai-tools-node-guide/)。
+
+## 本站现有的播放与速度记录
+
+**2026-11-10 站长实测**（灵动云日本5 节点，上午 10:54 单次测试，本地网络未标注）：IPCheck.ing 下载 191.43 Mbps，网络质量评估中在线视频为“良好”。YouTube 详细统计信息显示清晰度 720p@25，两次连接速度读数为 49,278 Kbps 与 7,416 Kbps，丢帧 0 / 752 与 4 / 1746。两次读数相差大，本站的解读是与缓冲状态有关；报告没有测试 1080p 或更高清晰度。详见[灵动云日本5 节点实测报告](/speedtest/lingdongyun-2026-11-10-japan-node-report/)。
+
+**2026-10-28 晚高峰文字记录**（品牌资料附带，不是本站测试；灵动云资料第十节，中国联通，21:26–21:45，无截图，工具未注明）：下载速度香港 10.8 Mbps、新加坡 13.2 Mbps、美国 7.07 Mbps；YouTube 香港 720p 播放顺畅，Netflix 连接较慢；记录方的结论是适合网页、AI 与 720p 视频，不适合 1080p 以上或大文件下载。摘要见[灵动云测评](/reviews/lingdongyun-review-2026/)。
+
+只做数字对照：191.43 Mbps 高于两家的 4K 建议值；7.07–13.2 Mbps 低于 YouTube 4K（20 Mbps）和 Netflix 4K（15 Mbps）的建议值，虽然高于 1080p 的 5 Mbps，记录方的结论仍是不适合 1080p 以上。测速读数不是播放测试，两份记录的时段、网络和节点都不同，不能据此判断某个时段能不能看 1080p 或 4K。
+
+<Callout type="warning" title="本站没有 4K 测试">
+机场优选目前没有任何品牌的 4K 播放测试记录。灵动云的播放记录只到 720p，其他品牌本站暂无测试记录。
+</Callout>
+
+## 首页推荐榜 12 家机场资料里的流媒体说法
+
+下表按[首页推荐榜](/#ranking)的 12 家顺序排列，这是编辑推荐顺序，含推广合作因素，不是测速或评分排名。平台清单整理自品牌资料，属于资料称，本站没有测试播放；梯子云的资料由站长整理，资料自述部分信息来自公开网页与第三方后台快照。
+
+| 品牌 | 资料日期 | 资料列出的流媒体平台 | 资料中的相关说明 | 本站测试记录 |
+| --- | --- | --- | --- | --- |
+| [灵动云](/reviews/lingdongyun-review-2026/) | 2026-11-09 | Netflix、Disney+、HBO、YouTube、TikTok、Abema、Spotify | 可用性不作持续保证，以实测为准 | 有地区检测与 720p 播放统计，无 4K 测试 |
+| [暮光加速](/reviews/muguang-jiasu-review-2026/) | 2026-11-09 | Netflix、Hulu、HBO、Disney+、DAZN | 可用性不作持续保证，以实测为准 | 本站暂无测试记录 |
+| [微风网络 Breezenet](/reviews/weifeng-wangluo-review-2026/) | 2026-11-13 | Netflix、Disney+、HBO Max、TikTok | 资料称全节点使用住宅 IP；可用性不作持续保证 | 本站暂无测试记录 |
+| [飞猫云](/reviews/feimaoyun-review-2026/) | 2026-11-13 | Netflix、Disney+、TikTok | 资料称使用原生 IP；可用性不作持续保证 | 本站暂无测试记录 |
+| [大佬云 DalaoYun](/reviews/dalaoyun-review-2026/) | 2026-11-13 | Netflix、Disney+、TikTok | 资料称使用原生 IP；可用性不作持续保证 | 本站暂无测试记录 |
+| [FLYV 飞V](/reviews/flyv-review/) | 2026-11-09 | Netflix、Disney+、YouTube Premium、Prime Video、Abema、TVer | 资料称使用原生 IP；可用性不作持续保证 | 本站暂无测试记录 |
+| [浪网 WaveNet](/reviews/langwang-review-2026/) | 2026-11-13 | Netflix、Disney+、HBO、YouTube | 资料未写可用性说明 | 本站暂无测试记录 |
+| [隐形人](/reviews/yinxingren-review-2026/) | 2026-11-13 | Netflix、Disney+、Prime Video、BBC、Abema、TVer | 可用性不作持续保证，以实测为准 | 本站暂无测试记录 |
+| [梯子云 LadderCloud](/reviews/tiziyun-review-2026/) | 2026-11-23 | 未列支持名单，分项提到 Netflix、Disney+、YouTube | 资料称针对高清视频与流媒体用户分档配置，Netflix、Disney+ 解锁未逐一验证；YouTube 的 HD / 4K 画质取决于节点负载、用户带宽和平台限制，不是保底播放承诺 | 本站暂无测试记录 |
+| [无忧链接](/reviews/wuyou-review-2026/) | 2026-11-13 | Netflix、Disney+、YouTube、TikTok | 资料称支持 TikTok 跨区直连与直播；可用性不作持续保证 | 本站暂无测试记录 |
+| [Firefly](/reviews/firefly-review-2026/) | 2026-11-13 | YouTube、Netflix、Disney+、HBO | 资料称使用原生 IP；可用性不作持续保证 | 本站暂无测试记录 |
+| [全球云](/reviews/quanqiuyun-review-2026/) | 2026-11-13 | Netflix、Hulu、HBO、Disney+、DAZN | 可用性不作持续保证，以实测为准 | 本站暂无测试记录 |
+
+12 家资料都没有写哪个节点对应哪个地区的片库。提到 4K 的只有梯子云，写的是一条限制：YouTube 的 HD / 4K 画质取决于节点负载、用户带宽和平台限制，不是保底播放承诺；其余 11 家资料没有提到 4K。列出的平台不代表每个节点、每个时段都能看，没列出的也不代表不能看。
+
+## 用机场看流媒体前，确认这五件事
+
+1. **晚高峰的持续速度**：在你常看视频的时段连续测几天。看 4K 至少要稳定达到 YouTube 建议的 20 Mbps、Netflix 建议的 15 Mbps，几台设备同时看还要叠加。Netflix 帮助中心也建议，确认电视等设备上显示的网速达到对应画质的建议值。
+2. **出口被判定的地区**：用检测工具或直接打开 YouTube、Netflix，确认出口被判为你要的地区；找到合适的节点就固定使用。
+3. **每月流量与规则**：按上面的表估算用量并留出余量，再核对重置、结转与倍率。
+4. **设备数与设备类型**：几台设备同时在线是否受限，电视、盒子能不能装客户端。首页推荐榜 12 家的资料对周期套餐都写了不限设备，但隐形人的一次性流量包限 1 / 2 / 3 台，全球云另有第三方资料写限 5 台（待核实）。设备类型方面，FLYV 飞V 资料写明电视盒子、软路由等设备请先咨询客服；全球云的支持系统列了路由器，却没写怎么接；梯子云资料称没找到官方路由器固件，OpenWrt、OpenClash 一类方案要协议兼容且品牌实际开放订阅才可能用；其余 9 家资料没提电视、盒子或路由器。
+5. **设备与账户本身支持 4K**：Netflix 帮助中心说明，套餐要支持你想要的画质，播放设备也要支持该画质，4K 或 HDR 要接在支持 HDCP 2.2 或更高版本的 HDMI 接口上，账户里每个屏幕的数据用量要设为“高”或“自动”。YouTube 要看 4K，设备和屏幕同样要支持。这些条件不满足，线路再快也看不到 4K。

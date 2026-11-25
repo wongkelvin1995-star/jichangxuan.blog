@@ -1,0 +1,17 @@
+[
+  { "from": "/index.html", "to": "/" },
+  { "from": "/guide", "to": "/guides/" },
+  { "from": "/tutorials", "to": "/guides/" },
+  { "from": "/tutorial", "to": "/guides/" },
+  { "from": "/posts", "to": "/articles/" },
+  { "from": "/blog", "to": "/articles/" },
+  { "from": "/review", "to": "/reviews/" },
+  { "from": "/speed-tests", "to": "/speedtest/" },
+  { "from": "/speedtests", "to": "/speedtest/" },
+  { "from": "/comparison", "to": "/compare/" },
+  { "from": "/recommendation", "to": "/recommend/" },
+  { "from": "/lingdong", "to": "/lingdongyun/" },
+  { "from": "/ldy", "to": "/lingdongyun/" },
+  { "from": "/feed", "to": "/rss.xml" },
+  { "from": "/rss", "to": "/rss.xml" }
+]

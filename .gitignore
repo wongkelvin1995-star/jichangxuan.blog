@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env — 真实密钥不入库
+.env
+.env.local
+.env.production
+.env.production.local
+
+# IndexNow 密钥文件由构建前脚本根据 INDEXNOW_KEY 生成（robots.txt 由 app/robots.ts 生成，不在 public）
+/public/*.txt
+
+# IndexNow 提交记录（首次真实提交后出现，可按需入库）
+.indexnow/log.jsonl
+
+# 检查脚本输出
+reports/*.json
+reports/*.html
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
+
+# 本机工具配置
+.claude/
+reports/**/*.json
+reports/**/*.html

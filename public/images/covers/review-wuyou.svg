@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="无忧链接测评">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#DB2777" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#DB2777" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#DB2777" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="860" cy="91" r="142" stroke="#DB2777" stroke-opacity="0.16" fill="none" stroke-width="1.5"/><circle cx="1038" cy="357" r="78" stroke="#DB2777" stroke-opacity="0.20" fill="none" stroke-width="1.5"/><circle cx="778" cy="482" r="73" stroke="#DB2777" stroke-opacity="0.12" fill="none" stroke-width="1.5"/><path d="M-20 518 C 260 358, 480 605, 760 405 S 1100 458, 1240 378" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 578 C 300 438, 520 645, 800 485 S 1120 538, 1240 458" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="898" y="364" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1032" y="442" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="833" cy="308" r="5" fill="#DB2777" fill-opacity="0.44"/><circle cx="832" cy="81" r="4" fill="#DB2777" fill-opacity="0.56"/><circle cx="1023" cy="279" r="6" fill="#DB2777" fill-opacity="0.50"/><circle cx="1127" cy="135" r="6" fill="#DB2777" fill-opacity="0.60"/><circle cx="1001" cy="310" r="3" fill="#DB2777" fill-opacity="0.47"/><circle cx="744" cy="335" r="5" fill="#DB2777" fill-opacity="0.50"/>
+  <rect x="900" y="96" width="228" height="56" rx="28" fill="#DB2777" fill-opacity="0.12"/><text x="1014" y="133" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#DB2777">2026 测评</text>
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#DB2777"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#DB2777">REVIEW · WUYOU</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="84" font-weight="700" fill="#14273D" letter-spacing="-1">无忧链接测评</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">全线 IPLC 与低价入门档</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

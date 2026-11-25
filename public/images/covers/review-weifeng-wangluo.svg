@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="微风网络测评">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D9488" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0D9488" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#0D9488" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="914" cy="272" r="66" stroke="#0D9488" stroke-opacity="0.21" fill="none" stroke-width="1.5"/><circle cx="878" cy="482" r="73" stroke="#0D9488" stroke-opacity="0.10" fill="none" stroke-width="1.5"/><circle cx="824" cy="446" r="207" stroke="#0D9488" stroke-opacity="0.12" fill="none" stroke-width="1.5"/><path d="M-20 472 C 260 312, 480 569, 760 369 S 1100 412, 1240 332" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 532 C 300 392, 520 609, 800 449 S 1120 492, 1240 412" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="893" y="386" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1046" y="447" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="937" cy="358" r="4" fill="#0D9488" fill-opacity="0.40"/><circle cx="834" cy="472" r="3" fill="#0D9488" fill-opacity="0.42"/><circle cx="895" cy="442" r="6" fill="#0D9488" fill-opacity="0.39"/><circle cx="704" cy="76" r="4" fill="#0D9488" fill-opacity="0.32"/><circle cx="801" cy="165" r="7" fill="#0D9488" fill-opacity="0.45"/><circle cx="1094" cy="92" r="6" fill="#0D9488" fill-opacity="0.44"/>
+  <rect x="900" y="96" width="228" height="56" rx="28" fill="#0D9488" fill-opacity="0.12"/><text x="1014" y="133" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#0D9488">2026 测评</text>
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#0D9488"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#0D9488">REVIEW · BREEZENET</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="84" font-weight="700" fill="#14273D" letter-spacing="-1">微风网络测评</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">全 IPLC 专线与共享流量</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

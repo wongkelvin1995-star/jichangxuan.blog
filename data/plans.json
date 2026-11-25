@@ -1,0 +1,454 @@
+[
+  {
+    "brandId": "lingdongyun",
+    "source": "source-materials/brands/灵动云.txt",
+    "materialDate": "2026-11-09",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL 专线 + BGP 智能调度",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "季付 95 折、半年付 9 折、年付 85 折、两年付 8 折、三年付 75 折（资料原文）",
+    "periodic": [
+      { "plan": "拂风", "trafficGb": 100, "prices": { "monthly": 20, "quarterly": 57, "half-year": 108, "yearly": 204, "two-year": 384, "three-year": 540 } },
+      { "plan": "驭浪", "trafficGb": 300, "prices": { "monthly": 50, "quarterly": 142.5, "half-year": 270, "yearly": 510, "two-year": 960, "three-year": 1350 } },
+      { "plan": "破晓", "trafficGb": 700, "prices": { "monthly": 100, "quarterly": 285, "half-year": 540, "yearly": 1020, "two-year": 1920, "three-year": 2700 } },
+      { "plan": "凌霄", "trafficGb": 1500, "prices": { "monthly": 180, "quarterly": 513, "half-year": 972, "yearly": 1836, "two-year": 3456, "three-year": 4860 } }
+    ],
+    "yearlySmall": [{ "plan": "穿云（IPLC 专线）", "trafficGb": 70, "price": 99, "notes": ["从购买日起每 30 天刷新 70 GB", "不适用优惠码 ld888"] }],
+    "dataPacks": [
+      { "plan": "闲云", "trafficGb": 150, "price": 199, "notes": ["不适用优惠码 ld888"] },
+      { "plan": "惊云", "trafficGb": 400, "price": 499, "notes": ["不适用优惠码 ld888"] },
+      { "plan": "飞云", "trafficGb": 800, "price": 899, "notes": ["不适用优惠码 ld888"] }
+    ],
+    "custom": [{ "plan": "至尊私人定制", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["独立带宽、专属公网 IP，约 2–3 个工作日交付", "不适用优惠码 ld888"] }],
+    "notes": ["周期套餐流量每月重置，未用完不结转；月内用完可购买同档重置包（价格等于月付价）", "优惠码 ld888 可享 8 折（适用于拂风、驭浪、破晓、凌霄，含长周期）"]
+  },
+  {
+    "brandId": "flyv",
+    "source": "source-materials/brands/FLYV.txt",
+    "materialDate": "2026-11-09",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL / IPLC 专线（美国为 BGP 直连优化）",
+    "devices": "常规周期套餐不限同时在线设备数",
+    "cycleDiscounts": "季付约为月付总价的 95%、半年付约 90%、年付约 85%，两年付、三年付资料未列价格",
+    "periodic": [
+      { "plan": "入门方案", "trafficGb": 150, "prices": { "monthly": 25 } },
+      { "plan": "进阶方案", "trafficGb": 380, "prices": { "monthly": 50 } },
+      { "plan": "高端方案", "trafficGb": 800, "prices": { "monthly": 110 } },
+      { "plan": "商业方案", "trafficGb": 1800, "prices": { "monthly": 190 } }
+    ],
+    "yearlySmall": [{ "plan": "年付标准轻量版", "trafficGb": 65, "price": 99, "notes": ["不适用优惠码 fly20"] }],
+    "dataPacks": [
+      { "plan": "单次轻量版 · 小流量包", "trafficGb": 130, "price": 189, "notes": ["不适用优惠码 fly20"] },
+      { "plan": "单次轻量版 · 标准流量包", "trafficGb": 380, "price": 479, "notes": ["不适用优惠码 fly20"] },
+      { "plan": "单次轻量版 · 精英流量包", "trafficGb": 600, "price": 799, "notes": ["不适用优惠码 fly20"] }
+    ],
+    "custom": [{ "plan": "原生 IP · 独享黄金专线", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["资料称适合 TikTok、跨境电商", "不适用优惠码 fly20"] }],
+    "notes": ["周期套餐流量每月重置，未用完不结转；月内用完可购买同档重置包（价格等于月付价）", "优惠码 fly20 8 折：新用户首单专享，每个账号限用一次"]
+  },
+  {
+    "brandId": "muguang-jiasu",
+    "source": "source-materials/brands/暮光加速.txt",
+    "materialDate": "2026-11-09",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "BGP 智能路由 + IPLC 专线出口",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "资料未写比例；按价格计算约为季付 95 折、半年付 9 折、年付 85 折",
+    "periodic": [
+      { "plan": "基础版", "trafficGb": 120, "prices": { "monthly": 20, "quarterly": 57, "half-year": 108, "yearly": 204 } },
+      { "plan": "标准版", "trafficGb": 300, "prices": { "monthly": 40, "quarterly": 114, "half-year": 216, "yearly": 408 } },
+      { "plan": "旗舰版", "trafficGb": 700, "prices": { "monthly": 100, "quarterly": 285, "half-year": 540, "yearly": 1020 } },
+      { "plan": "至尊版", "trafficGb": 1500, "prices": { "monthly": 180, "quarterly": 513, "half-year": 972, "yearly": 1836 } }
+    ],
+    "yearlySmall": [{ "plan": "年付轻量版", "trafficGb": 70, "price": 109, "notes": ["每 30 天刷新", "不适用优惠码 mm88"] }],
+    "dataPacks": [
+      { "plan": "轻量包", "trafficGb": 150, "price": 219 },
+      { "plan": "标准包", "trafficGb": 400, "price": 529 },
+      { "plan": "大容量包", "trafficGb": 800, "price": 959 }
+    ],
+    "custom": [{ "plan": "独享私人定制节点", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["独立带宽、独立公网 IP，需工单咨询"] }],
+    "notes": ["周期套餐流量每月重置，未用完不结转", "优惠码 mm88 8 折，适用于周期套餐，不适用年付轻量版"]
+  },
+  {
+    "brandId": "yinxingren",
+    "source": "source-materials/brands/隐形人.txt",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL 专线 + BGP 智能优化",
+    "devices": "周期套餐不限设备",
+    "cycleDiscounts": "季付 95 折、半年付 9 折、年付 85 折（资料原文）",
+    "periodic": [
+      { "plan": "白银纪元", "trafficGb": 144, "prices": { "monthly": 24, "quarterly": 68.4, "half-year": 129.6, "yearly": 244.8 } },
+      { "plan": "黄金序列", "trafficGb": 360, "prices": { "monthly": 48, "quarterly": 136.8, "half-year": 259.2, "yearly": 489.6 } },
+      { "plan": "铂金至臻", "trafficGb": 750, "prices": { "monthly": 105, "quarterly": 299.25, "half-year": 567, "yearly": 1071 } },
+      { "plan": "钻石穹顶", "trafficGb": 1600, "prices": { "monthly": 185, "quarterly": 527.25, "half-year": 999, "yearly": 1887 } }
+    ],
+    "yearlySmall": [{ "plan": "星耀风暴", "trafficGb": 80, "price": 109, "notes": ["每 30 天刷新"] }],
+    "dataPacks": [
+      { "plan": "小流量包", "trafficGb": 160, "price": 229, "devices": "限 1 台设备" },
+      { "plan": "标准流量包", "trafficGb": 420, "price": 549, "devices": "限 2 台设备" },
+      { "plan": "精英流量包", "trafficGb": 1000, "price": 1199, "devices": "限 3 台设备" }
+    ],
+    "custom": [{ "plan": "王者定制版（独享带宽）", "trafficGb": 500, "price": 680, "cycle": "monthly" }],
+    "notes": ["周期套餐流量每月重置，未用完不结转；所有套餐不限速", "优惠码 yxr888 8 折，一次性使用（站长 2026-11-13 补充）；适用套餐范围资料未写"]
+  },
+  {
+    "brandId": "weifeng-wangluo",
+    "source": "source-materials/brands/微风网络.txt",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "全 IPLC 专线",
+    "devices": "不限同时在线设备数，所有设备共用同一份流量",
+    "cycleDiscounts": "资料未写比例；按价格计算约为季付 9 折、半年付 85 折、年付 8 折；御风年付 ¥998 低于这一比例（约 66.5%），站长 2026-11-25 核对官网价格确为 ¥998",
+    "periodic": [
+      { "plan": "乘风（Riding）", "trafficGb": 200, "prices": { "monthly": 25, "quarterly": 67, "half-year": 127, "yearly": 240 } },
+      { "plan": "破风（Breaking）", "trafficGb": 500, "prices": { "monthly": 55, "quarterly": 148, "half-year": 280, "yearly": 528 } },
+      { "plan": "御风（Mastery）", "trafficGb": 1200, "prices": { "monthly": 125, "quarterly": 337, "half-year": 637, "yearly": 998 } }
+    ],
+    "yearlySmall": [{ "plan": "清风（Breeze）", "trafficGb": 60, "price": 99, "notes": ["从购买日起每月自动重置", "不适用优惠码 weifeng90"] }],
+    "dataPacks": [
+      { "plan": "微风·不限时", "trafficGb": 100, "price": 100, "notes": ["不适用优惠码 weifeng90"] },
+      { "plan": "信风·不限时", "trafficGb": 270, "price": 200, "notes": ["不适用优惠码 weifeng90"] },
+      { "plan": "长风·不限时", "trafficGb": 570, "price": 370, "notes": ["不适用优惠码 weifeng90"] }
+    ],
+    "custom": [],
+    "notes": ["周期套餐从购买日起按月重置，未用完不结转；所有套餐不限速", "优惠码 weifeng90 9 折，适用于乘风、破风、御风"]
+  },
+  {
+    "brandId": "langwang",
+    "source": "source-materials/brands/浪网.txt",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "企业级 IEPL 专线 + 三网优化",
+    "devices": "无限",
+    "cycleDiscounts": "资料未写比例；按价格计算约为季付 95 折、半年付 9 折、年付 85 折",
+    "periodic": [
+      { "plan": "入口", "trafficGb": 150, "prices": { "monthly": 30, "quarterly": 85.5, "half-year": 162, "yearly": 306 } },
+      { "plan": "进阶", "trafficGb": 400, "prices": { "monthly": 70, "quarterly": 199.5, "half-year": 378, "yearly": 714 } },
+      { "plan": "高端", "trafficGb": 800, "prices": { "monthly": 120, "quarterly": 342, "half-year": 648, "yearly": 1224 } },
+      { "plan": "商业", "trafficGb": 2000, "prices": { "monthly": 200, "quarterly": 570, "half-year": 1080, "yearly": 2040 }, "notes": ["资料写 2 TB / 月"] }
+    ],
+    "yearlySmall": [{ "plan": "年付标准", "trafficGb": 80, "price": 119, "notes": ["不适用优惠码 lw888"] }],
+    "dataPacks": [
+      { "plan": "不限时流量包 180 GB", "trafficGb": 180, "price": 239 },
+      { "plan": "不限时流量包 450 GB", "trafficGb": 450, "price": 569 },
+      { "plan": "不限时流量包 900 GB", "trafficGb": 900, "price": 1099 }
+    ],
+    "custom": [{ "plan": "定制线路包", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["仅支持月付"] }],
+    "notes": ["每月流量重置日期为购买当日起一个月；未使用流量不结转；流量耗尽可复购；支持流量包叠加", "优惠码 lw888 8 折，适用于符合条件的常规周期套餐"]
+  },
+  {
+    "brandId": "feimaoyun",
+    "source": "source-materials/brands/飞猫云.txt",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "全 IPLC 专线",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "年付 8 折、两年付 7 折、三年付 6 折（资料原文，两年付、三年付未列价格）；宇宙版年付 ¥1360 低于 8 折价 ¥1440，站长 2026-11-25 核对官网价格确为 ¥1360",
+    "periodic": [
+      { "plan": "星耀版", "trafficGb": 150, "prices": { "monthly": 25, "quarterly": 67, "half-year": 127, "yearly": 240 } },
+      { "plan": "星环版", "trafficGb": 300, "prices": { "monthly": 45, "quarterly": 121, "half-year": 229, "yearly": 432 } },
+      { "plan": "银河版", "trafficGb": 600, "prices": { "monthly": 85, "quarterly": 229, "half-year": 433, "yearly": 816 } },
+      { "plan": "宇宙版", "trafficGb": 1000, "prices": { "monthly": 150, "quarterly": 400, "half-year": 750, "yearly": 1360 } }
+    ],
+    "yearlySmall": [{ "plan": "学生版", "trafficGb": 50, "price": 84, "notes": ["每月自动刷新"] }],
+    "dataPacks": [{ "plan": "不限时套餐", "trafficGb": 1000, "price": 680, "notes": ["用完可付费重置，¥612"] }],
+    "custom": [{ "plan": "定制套餐", "trafficGb": 500, "price": 550, "cycle": "monthly", "notes": ["独享原生 IP、可选地区、独立带宽，细节以客服报价为准"] }],
+    "notes": ["季付及以上从购买日起每 30 天刷新流量，未用完不结转；月付重置规则资料未写", "优惠码 flycat888 8 折：季付及以上周期套餐，新用户专享，不适用月付"]
+  },
+  {
+    "brandId": "dalaoyun",
+    "source": "source-materials/brands/大佬云.txt",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL 专线",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "没有半年付（资料原文）；季付、年付折扣比例未写",
+    "periodic": [
+      { "plan": "初云·福利版", "trafficGb": 120, "prices": { "monthly": 19.99 }, "notes": ["资料只列月付"] },
+      { "plan": "初云·进阶版", "trafficGb": 150, "prices": { "monthly": 25 }, "notes": ["资料只列月付"] },
+      { "plan": "凌云·基础版", "trafficGb": 300, "prices": { "monthly": 43, "quarterly": 123, "yearly": 408 } },
+      { "plan": "御云·高级版", "trafficGb": 600, "prices": { "monthly": 73, "quarterly": 210, "yearly": 696 } }
+    ],
+    "yearlySmall": [{ "plan": "年付活动包", "trafficGb": 60, "price": 96 }],
+    "dataPacks": [
+      { "plan": "闲云·随心包", "trafficGb": 78, "price": 99 },
+      { "plan": "悠云·长享包", "trafficGb": 160, "price": 199 }
+    ],
+    "custom": [],
+    "notes": ["周期套餐流量每月重置，未用完不结转；资料称晚高峰不限速", "优惠码 dly888 7 折，一次性使用；适用范围资料未写"]
+  },
+  {
+    "brandId": "wuyou",
+    "source": "source-materials/brands/10_无忧_无忧链接_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IPLC 专线",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "没有半年付（资料原文）；按价格计算约为季付 9 折、年付 8 折",
+    "periodic": [
+      { "plan": "舒心链接", "trafficGb": 100, "prices": { "monthly": 19, "quarterly": 51, "yearly": 182 } },
+      { "plan": "省心链接", "trafficGb": 200, "prices": { "monthly": 33, "quarterly": 89, "yearly": 316 } },
+      { "plan": "随心链接", "trafficGb": 500, "prices": { "monthly": 77, "quarterly": 207, "yearly": 739 } },
+      { "plan": "忘忧链接", "trafficGb": 1000, "prices": { "monthly": 117, "quarterly": 315, "yearly": 1123 } }
+    ],
+    "yearlySmall": [{ "plan": "MINI 链接", "trafficGb": 40, "price": 79, "notes": ["不适用优惠码 wuyou666"] }],
+    "dataPacks": [
+      { "plan": "100G 永久不限时", "trafficGb": 100, "price": 108 },
+      { "plan": "300G 永久不限时", "trafficGb": 300, "price": 298 }
+    ],
+    "custom": [],
+    "notes": ["周期套餐流量每月重置，未用完不结转；所有套餐不限速", "优惠码 wuyou666 8 折，不适用 MINI 链接；第三方记载活动至 11 月 30 日，有效期待核实"]
+  },
+  {
+    "brandId": "firefly",
+    "source": "source-materials/brands/11_Firefly_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IPLC 专线",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "没有半年付（资料原文）；按价格计算约为季付 9 折、年付 8 折",
+    "periodic": [
+      { "plan": "Lite", "trafficGb": 150, "prices": { "monthly": 25, "quarterly": 67, "yearly": 240 } },
+      { "plan": "Plus", "trafficGb": 300, "prices": { "monthly": 45, "quarterly": 121, "yearly": 432 } },
+      { "plan": "Blaze", "trafficGb": 600, "prices": { "monthly": 85, "quarterly": 229, "yearly": 816 } },
+      { "plan": "Nova", "trafficGb": 1000, "prices": { "monthly": 150, "quarterly": 400, "yearly": 1360 } }
+    ],
+    "yearlySmall": [{ "plan": "年付版", "trafficGb": 60, "price": 96, "notes": ["不适用优惠码 firefly"] }],
+    "dataPacks": [{ "plan": "不限时套餐", "trafficGb": 100, "price": 100 }],
+    "custom": [],
+    "notes": ["周期套餐流量每月重置，未用完不结转；限速规则资料未写", "优惠码 firefly 8 折，适用于 Lite、Plus、Blaze、Nova，新用户专享"]
+  },
+  {
+    "brandId": "weituyun",
+    "source": "source-materials/brands/12_唯兔云_OnlyRabbit_V2_云_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "全 IPLC 专线（年付加强专线为 IEPL）",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "年付 8 折、两年付 7 折、三年付 6 折（资料原文；与各档年价未必一一对应，结算时逐档核对）",
+    "periodic": [
+      { "plan": "普通版", "trafficGb": 150, "prices": { "monthly": 19.9, "quarterly": 53.9, "half-year": 101.9, "yearly": 191.9 } },
+      { "plan": "进阶版", "trafficGb": 200, "prices": { "monthly": 29.9, "quarterly": 80.9, "half-year": 152.9, "yearly": 286.9 } },
+      { "plan": "专业版", "trafficGb": 500, "prices": { "monthly": 59.9, "quarterly": 161.9, "half-year": 305.9, "yearly": 547.9 } },
+      { "plan": "至尊版", "trafficGb": 1000, "prices": { "monthly": 119.9, "quarterly": 323.9, "half-year": 611.9, "yearly": 1150.9 } },
+      { "plan": "节假日限时", "trafficGb": 100, "prices": { "monthly": 14.9, "quarterly": 40.9, "half-year": 75.9, "yearly": 149.9 }, "notes": ["限时开放"] }
+    ],
+    "yearlySmall": [
+      { "plan": "年付版限量款（全 IPLC 专线）", "trafficGb": 45, "price": 79.9, "notes": ["不适用优惠码 rabbit"] },
+      { "plan": "年付加强专线（IEPL）", "trafficGb": 75, "price": 120, "notes": ["不适用优惠码 rabbit"] }
+    ],
+    "dataPacks": [
+      { "plan": "永久不限时 100 GB", "trafficGb": 100, "price": 100 },
+      { "plan": "永久不限时 200 GB", "trafficGb": 200, "price": 160 },
+      { "plan": "永久不限时 500 GB", "trafficGb": 500, "price": 340, "notes": ["续费重置 9 折"] }
+    ],
+    "custom": [],
+    "notes": ["周期套餐流量每月重置，未用完不结转；所有套餐不限速", "优惠码 rabbit 9 折，适用于普通版、进阶版、专业版、至尊版，新用户专享"]
+  },
+  {
+    "brandId": "lingmao",
+    "source": "source-materials/brands/13_灵猫_灵猫网络_CivetNet_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "全 IPLC 专线",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "没有半年付（资料原文）；按价格计算约为季付 87–93 折、年付 55–65 折",
+    "periodic": [
+      { "plan": "Small", "trafficGb": 150, "prices": { "monthly": 25, "quarterly": 65, "yearly": 195 } },
+      { "plan": "Big", "trafficGb": 300, "prices": { "monthly": 45, "quarterly": 125, "yearly": 295 } }
+    ],
+    "yearlySmall": [{ "plan": "年付小包", "trafficGb": 45, "price": 85, "notes": ["不适用优惠码 lingmao"] }],
+    "dataPacks": [],
+    "custom": [{ "plan": "大流量定制（直播、电商专线）", "trafficGb": null, "price": 999, "cycle": "monthly", "notes": ["流量资料未写，细节以客服报价为准"] }],
+    "notes": ["按订单日每月自动重置流量；流量用完可购买加油包（价格资料未写）；资料称不限速", "优惠码 lingmao 8 折，适用于 Small、Big；另有渠道资料列 lmao888 9 折，待结算确认"]
+  },
+  {
+    "brandId": "quanqiuyun",
+    "source": "source-materials/brands/14_全球云_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "BGP 智能优化 + 专线出口（轻量版为全 IPLC 专线）",
+    "devices": "常规套餐不限同时在线设备数（第三方资料写 5 台，待核实）",
+    "cycleDiscounts": "季付 9 折、半年付 85 折、年付 8 折、两年付 7 折、三年付 6 折（资料原文；两年付、三年付未列价格）",
+    "periodic": [
+      { "plan": "入门方案", "trafficGb": 120, "prices": { "monthly": 20, "quarterly": 54, "half-year": 102, "yearly": 192 } },
+      { "plan": "进阶方案", "trafficGb": 300, "prices": { "monthly": 40, "quarterly": 108, "half-year": 204, "yearly": 384 } },
+      { "plan": "高端方案", "trafficGb": 700, "prices": { "monthly": 100, "quarterly": 270, "half-year": 510, "yearly": 960 } },
+      { "plan": "商业方案", "trafficGb": 1500, "prices": { "monthly": 180, "quarterly": 486, "half-year": 918, "yearly": 1728 } }
+    ],
+    "yearlySmall": [{ "plan": "轻量版（全 IPLC 专线）", "trafficGb": 59, "price": 99 }],
+    "dataPacks": [
+      { "plan": "不限时轻量包", "trafficGb": 100, "price": 100 },
+      { "plan": "不限时标准包", "trafficGb": 400, "price": 360 },
+      { "plan": "不限时大容量包", "trafficGb": 800, "price": 700 }
+    ],
+    "custom": [{ "plan": "独享私人专线节点", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["独立带宽、独立公网 IP，约 2–3 个工作日交付", "不适用优惠码 qq88"] }],
+    "notes": ["未用完的流量不结转；所有套餐不限速；重置日资料未写", "优惠码 qq88 8 折，不适用独享私人专线节点"]
+  },
+  {
+    "brandId": "kuajie",
+    "source": "source-materials/brands/15_跨界_跨界云_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IPLC 专线",
+    "devices": "不限登录设备数（同时在线上限资料未写）",
+    "cycleDiscounts": "资料未写比例；按价格计算年付约为 8 折",
+    "periodic": [
+      { "plan": "轻云 Lite", "trafficGb": 120, "prices": { "monthly": 20, "quarterly": 54, "yearly": 192 } },
+      { "plan": "跃云 Leap", "trafficGb": 330, "prices": { "monthly": 40, "yearly": 384 }, "notes": ["季付、半年付资料未写"] },
+      { "plan": "凌云 Soar", "trafficGb": 830, "prices": { "monthly": 90, "yearly": 864 }, "notes": ["季付、半年付资料未写"] },
+      { "plan": "无界 Infinity", "trafficGb": 1800, "prices": { "monthly": 130, "yearly": 1248 }, "notes": ["季付、半年付资料未写"] }
+    ],
+    "yearlySmall": [{ "plan": "跨界年付版", "trafficGb": 60, "price": 96 }],
+    "dataPacks": [],
+    "custom": [],
+    "notes": ["从购买日起算每月流量；所有套餐不限速；结转规则资料未写", "优惠码 kuajie 8 折，新用户专享；适用范围资料未写"]
+  },
+  {
+    "brandId": "shanyue",
+    "source": "source-materials/brands/16_闪跃_FlashLeap_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "全 IPLC 专线",
+    "devices": "不限设备",
+    "cycleDiscounts": "资料未写比例；按价格计算约为季付 89–90 折、年付 80–82 折",
+    "periodic": [
+      { "plan": "闪动 Flicker", "trafficGb": 150, "prices": { "monthly": 24, "quarterly": 64, "yearly": 230 } },
+      { "plan": "飞跃 Leap", "trafficGb": 300, "prices": { "monthly": 44, "quarterly": 118, "yearly": 422 } },
+      { "plan": "瞬移 Teleport", "trafficGb": 600, "prices": { "monthly": 84, "quarterly": 226, "yearly": 806 } },
+      { "plan": "跃迁 Warp", "trafficGb": 1000, "prices": { "monthly": 134, "quarterly": 369, "yearly": 1315 } }
+    ],
+    "yearlySmall": [{ "plan": "闪跃年付版", "trafficGb": 60, "price": 96, "notes": ["不适用优惠码 shanyue"] }],
+    "dataPacks": [],
+    "custom": [],
+    "notes": ["周期套餐按月重置；公开资料标称全节点 1x、不限速；是否结转、重置日期、加油包与提前重置待确认（站长 2026-11-13 补充）", "优惠码 shanyue 8 折，适用于闪动、飞跃、瞬移、跃迁"]
+  },
+  {
+    "brandId": "sogoyun",
+    "source": "source-materials/brands/17_Sogo_云_SOGO_Cloud_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL 专线 + 三网 BGP 优化",
+    "devices": "不限同时在线设备数",
+    "cycleDiscounts": "资料未写比例；按价格计算约为季付 87–93 折、半年付 8 折、年付 83–97 折",
+    "periodic": [
+      { "plan": "基础版", "trafficGb": 150, "prices": { "monthly": 25, "quarterly": 65, "half-year": 120, "yearly": 250 } },
+      { "plan": "优选版", "trafficGb": 350, "prices": { "monthly": 45, "quarterly": 125, "half-year": 245, "yearly": 485 } },
+      { "plan": "强化版", "trafficGb": 550, "prices": { "monthly": 80, "quarterly": 230, "half-year": 450, "yearly": 850 } },
+      { "plan": "顶配版", "trafficGb": 1100, "prices": { "monthly": 150, "quarterly": 440, "half-year": 870, "yearly": 1750 } }
+    ],
+    "yearlySmall": [{ "plan": "小包·年付版", "trafficGb": 60, "price": 98 }],
+    "dataPacks": [
+      { "plan": "基础餐不限时版", "trafficGb": 120, "price": 120 },
+      { "plan": "优选餐不限时版", "trafficGb": 250, "price": 220 },
+      { "plan": "强化餐不限时版", "trafficGb": 500, "price": 450 },
+      { "plan": "至尊餐不限时版", "trafficGb": 1000, "price": 850 }
+    ],
+    "custom": [],
+    "notes": ["每 30 天刷新流量；结转与限速规则资料未写", "优惠码 SOGO10000 9 折；第三方称每号一次、部分小包排除，以结算页为准"]
+  },
+  {
+    "brandId": "xingdaomeng",
+    "source": "source-materials/brands/18_星岛梦_StarDream_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "IEPL / IPLC 专线",
+    "devices": "不限设备（电脑、手机、路由器可同时在线）",
+    "cycleDiscounts": "两年付 7 折、三年付 6 折（资料原文，未列价格）；季付、半年付、年付按价格计算约为 93–100 折、83–92 折、80–83 折",
+    "periodic": [
+      { "plan": "超量150G", "trafficGb": 150, "prices": { "monthly": 25, "quarterly": 75, "half-year": 135, "yearly": 240 } },
+      { "plan": "进阶300G", "trafficGb": 300, "prices": { "monthly": 50, "quarterly": 145, "half-year": 270, "yearly": 480 } },
+      { "plan": "闪光500G", "trafficGb": 500, "prices": { "monthly": 70, "quarterly": 195, "half-year": 385, "yearly": 699 } },
+      { "plan": "旗舰1T版", "trafficGb": 1000, "prices": { "monthly": 130, "quarterly": 370, "half-year": 699, "yearly": 1249 } }
+    ],
+    "yearlySmall": [{ "plan": "贴心小包（全 IPLC 专线）", "trafficGb": 60, "price": 96, "notes": ["不适用优惠码 nmw888"] }],
+    "dataPacks": [
+      { "plan": "永久不限时 100", "trafficGb": 100, "price": 100 },
+      { "plan": "永久不限时 300", "trafficGb": 300, "price": 300 },
+      { "plan": "永久不限时 1TB", "trafficGb": 1000, "price": 600, "notes": ["续费 9 折"] }
+    ],
+    "custom": [{ "plan": "定制套餐", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["细节以客服报价为准"] }],
+    "notes": ["每 30 天自动刷新流量；结转规则资料未写", "优惠码 nmw888 9 折，新用户专享，不适用贴心小包"]
+  },
+  {
+    "brandId": "guangsuyun",
+    "source": "source-materials/brands/19_光速云_LightSpeed_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "周期套餐为全 IEPL 专线，轻量B版为全 IPLC 专线",
+    "devices": "不限设备，多端同时在线",
+    "cycleDiscounts": "套餐页写年付 8 折、两年付 7 折、三年付 6 折（两年付、三年付未列价格）；量子B版卡片另写半年付 9 折、两年付 75 折、三年付 7 折，口径不一",
+    "periodic": [
+      { "plan": "极速A版", "trafficGb": 168, "prices": { "monthly": 25, "quarterly": 74, "half-year": 94, "yearly": 179 }, "notes": ["月付价 ¥25 取自套餐页卡片描述，站长 2026-11-13 确认（原稿写 ¥23 为旧价）"] },
+      { "plan": "流光C版", "trafficGb": 268, "prices": { "monthly": 34, "quarterly": 96, "half-year": 147, "yearly": 249 }, "notes": ["月付价取自套餐页卡片描述（¥34/月）"] },
+      { "plan": "量子B版", "trafficGb": 568, "prices": { "monthly": 68, "quarterly": 198, "half-year": 375, "yearly": 667 }, "notes": ["月付价取自套餐页卡片描述（¥68/月）"] },
+      { "plan": "无界A版", "trafficGb": 938, "prices": { "monthly": 138, "quarterly": 398, "half-year": 567, "yearly": 998 }, "notes": ["月付价 ¥138 取自套餐页卡片描述，站长 2026-11-13 确认（原稿写 ¥130 为旧价）"] }
+    ],
+    "yearlySmall": [{ "plan": "轻量B版（全 IPLC 专线）", "trafficGb": 69, "price": 99, "notes": ["购买日起算，每 30 天自动刷新", "套餐页注明特殊套餐不支持优惠打折", "原稿写 59 GB，以 2026-11-13 套餐页为准"] }],
+    "dataPacks": [{ "plan": "不限时套餐", "trafficGb": 1000, "price": 680, "notes": ["来自原稿，未在 2026-11-13 套餐页截图中出现；站长 2026-11-25 核对价格一致"] }],
+    "custom": [{ "plan": "定制套餐（美国原生家宽 IP，全 IPLC 专线接入）", "trafficGb": 500, "price": 680, "cycle": "monthly", "notes": ["来自原稿"] }],
+    "notes": ["每 30 天自动刷新流量；套餐页标称全节点 x1、晚高峰不降速；结转规则未写", "季付、半年付、年付价格与档位流量按站长 2026-11-13 提供的套餐页截图录入", "优惠码 AMM 8 折（站长确认）；轻量B版为特殊套餐，不支持优惠打折；其余适用范围以结算页为准"]
+  },
+  {
+    "brandId": "u1s1",
+    "source": "source-materials/brands/20_有一说一_U1S1_更新版.md",
+    "materialDate": "2026-11-13",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "BGP 三网智能优化 + IEPL 专线出口",
+    "devices": "不限同时在线设备数（第三方资料有“入门档 3 台”说法，待核实）",
+    "cycleDiscounts": "季付 9 折、半年付 85 折、年付 8 折（资料原文）",
+    "periodic": [
+      { "plan": "普通人真够了包", "trafficGb": 120, "prices": { "monthly": 20, "quarterly": 54, "half-year": 102, "yearly": 192 } },
+      { "plan": "你以为用不到包", "trafficGb": 300, "prices": { "monthly": 40, "quarterly": 108, "half-year": 204, "yearly": 384 } },
+      { "plan": "瘾大就拉满包", "trafficGb": 700, "prices": { "monthly": 100, "quarterly": 270, "half-year": 510, "yearly": 960 } },
+      { "plan": "我全都要包", "trafficGb": 1500, "prices": { "monthly": 180, "quarterly": 486, "half-year": 918, "yearly": 1728 } }
+    ],
+    "yearlySmall": [{ "plan": "就是好用包", "trafficGb": 60, "price": 96, "notes": ["不适用优惠码 U1S1"] }],
+    "dataPacks": [],
+    "custom": [{ "plan": "定制包", "trafficGb": null, "price": 600, "cycle": "monthly", "notes": ["流量按需定制"] }],
+    "notes": ["每自然月自动重置流量；所有套餐不限速；结转规则资料未写", "优惠码 U1S1 8 折，不适用就是好用包"]
+  },
+  {
+    "brandId": "tiziyun",
+    "source": "source-materials/brands/梯子云_2026-11-23.md",
+    "materialDate": "2026-11-23",
+    "priceStatus": "verified",
+    "verifiedAt": "2026-11-25",
+    "lineType": "初阶基础中转、中阶 BGP 中转、高阶 IEPL 专线、顶阶企业级专线",
+    "devices": "不限设备数量（资料标注）",
+    "cycleDiscounts": "资料未写比例；按价格计算，四档均为季付 95 折、半年付 9 折、年付 85 折、两年付 8 折、三年付 75 折",
+    "periodic": [
+      { "plan": "初阶网络·基础视界", "trafficGb": 125, "prices": { "monthly": 25, "quarterly": 71.25, "half-year": 135, "yearly": 255, "two-year": 480, "three-year": 675 }, "notes": ["基础中转"] },
+      { "plan": "中阶加速·极清多线", "trafficGb": 350, "prices": { "monthly": 60, "quarterly": 171, "half-year": 324, "yearly": 612, "two-year": 1152, "three-year": 1620 }, "notes": ["BGP 中转"] },
+      { "plan": "高阶专线·全球智联", "trafficGb": 750, "prices": { "monthly": 110, "quarterly": 313.5, "half-year": 594, "yearly": 1122, "two-year": 2112, "three-year": 2970 }, "notes": ["IEPL 专线"] },
+      { "plan": "顶阶商业·全球骨干", "trafficGb": 1600, "prices": { "monthly": 190, "quarterly": 541.5, "half-year": 1026, "yearly": 1938, "two-year": 3648, "three-year": 5130 }, "notes": ["企业级专线集群"] }
+    ],
+    "yearlySmall": [{ "plan": "天梯随行·年度保活", "trafficGb": 60, "price": 89, "notes": ["年付，一次付清"] }],
+    "dataPacks": [
+      { "plan": "永不限时轻量包", "trafficGb": 120, "price": 169, "devices": "不限设备数量（资料标注）" },
+      { "plan": "永不限时标准包", "trafficGb": 350, "price": 449, "devices": "不限设备数量（资料标注）" },
+      { "plan": "永不限时精英包", "trafficGb": 700, "price": 849, "devices": "不限设备数量（资料标注）" }
+    ],
+    "custom": [{ "plan": "独享定制专线", "trafficGb": null, "price": 680, "cycle": "monthly", "notes": ["¥680 / 月起，月度流量额度由客服确认"] }],
+    "notes": ["价格为资料记载的公开标价（资料称可与 2026-10-27 的用户面板价目记录核对；资料整理日期 2026-11-23），不含优惠券；站长 2026-11-25 在官网 / 用户后台核对，价格一致", "另有重置包，价格资料未写；品牌宣传不限速，不代表实际吞吐量保证"]
+  }
+]

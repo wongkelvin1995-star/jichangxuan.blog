@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="全球云测评">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F46E5" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#4F46E5" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1102" cy="339" r="206" stroke="#4F46E5" stroke-opacity="0.14" fill="none" stroke-width="1.5"/><circle cx="1083" cy="382" r="187" stroke="#4F46E5" stroke-opacity="0.14" fill="none" stroke-width="1.5"/><circle cx="765" cy="132" r="78" stroke="#4F46E5" stroke-opacity="0.14" fill="none" stroke-width="1.5"/><path d="M-20 463 C 260 303, 480 501, 760 301 S 1100 403, 1240 323" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 523 C 300 383, 520 541, 800 381 S 1120 483, 1240 403" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="828" y="381" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1046" y="458" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="935" cy="508" r="8" fill="#4F46E5" fill-opacity="0.40"/><circle cx="700" cy="256" r="4" fill="#4F46E5" fill-opacity="0.55"/><circle cx="731" cy="304" r="7" fill="#4F46E5" fill-opacity="0.38"/><circle cx="919" cy="295" r="7" fill="#4F46E5" fill-opacity="0.48"/><circle cx="730" cy="351" r="5" fill="#4F46E5" fill-opacity="0.28"/><circle cx="841" cy="190" r="8" fill="#4F46E5" fill-opacity="0.37"/>
+  <rect x="900" y="96" width="228" height="56" rx="28" fill="#4F46E5" fill-opacity="0.12"/><text x="1014" y="133" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#4F46E5">2026 测评</text>
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#4F46E5"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#4F46E5">REVIEW · QUANQIUYUN</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="96" font-weight="700" fill="#14273D" letter-spacing="-1">全球云测评</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">BGP 专线出口与轻量版</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

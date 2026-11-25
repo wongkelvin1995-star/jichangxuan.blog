@@ -1,0 +1,1147 @@
+# internal-links 抓取摘要  2026-11-16T13:41:32.144Z  base=http://localhost:3100
+{
+ "base": "http://localhost:3100",
+ "crawledAt": "2026-11-16T13:41:32.144Z",
+ "urlsFetched": 124,
+ "urlsReachableFromHome": 124,
+ "htmlPages200Reachable": 123,
+ "nonHtmlTargets": [
+  {
+   "key": "/rss.xml",
+   "status": 200,
+   "contentType": "application/rss+xml"
+  }
+ ],
+ "statusCounts": {
+  "200": 124
+ },
+ "maxDepth": 3,
+ "totalAnchorElements": 7587,
+ "linkKinds": {
+  "fragment": 541,
+  "internal": 6994,
+  "external": 52
+ },
+ "internalLinks": 6994,
+ "internalLinksMainZone": 2443,
+ "internalLinksSiteHeader": 2337,
+ "internalLinksSiteFooter": 2214,
+ "uniqueInternalTargets": 124,
+ "externalLinks": 52,
+ "uniqueExternalUrls": 19,
+ "uniqueExternalHosts": 19,
+ "sitemapUrls": 49,
+ "sitemapHostSet": [
+  "jichangxuan.blog"
+ ],
+ "sitemapOnlyUrls": [],
+ "orphanCount": 0,
+ "mainZoneOrphanCount": 1,
+ "depthGte4Count": 0,
+ "depthGte4MainOnlyCount": 1,
+ "depthDistribution": {
+  "0": 1,
+  "1": 46,
+  "2": 2
+ },
+ "depthMainOnlyDistribution": {
+  "0": 1,
+  "1": 41,
+  "2": 6,
+  "null": 1
+ },
+ "selfLinks": 38,
+ "homeLinksPerPage": {
+  "min": 3,
+  "max": 4,
+  "avg": 3.98
+ },
+ "badHrefCount": 0,
+ "fragmentLinks": 558,
+ "fragmentIssues": 39,
+ "genericExactCount": 0,
+ "genericPrefixCount": 235,
+ "brandContextLinksChecked": 145,
+ "brandContextIssues": 0,
+ "avgLinksPerPage": 61.7
+}
+
+## sitemap URL：深度 / 入链（页数，实例；main 区页数）
+/                                                          st=200 d=0 dMain=0 in=122/487 main=121/121 idx=66 qVar=0 areas={"site-header":366,"breadcrumb":121}
+/articles/                                                 st=200 d=1 dMain=1 in=122/128 main=2/6 idx=66 qVar=0 areas={"main-other":3,"site-footer":122,"breadcrumb":1,"pagination":2}
+/brands/                                                   st=200 d=1 dMain=1 in=122/163 main=40/41 idx=66 qVar=0 areas={"main-other":22,"site-footer":122,"prose":1,"breadcrumb":18}
+/about/                                                    st=200 d=1 dMain=2 in=122/382 main=16/16 idx=66 qVar=0 areas={"site-header":244,"site-footer":122,"main-other":16}
+/methodology/                                              st=200 d=1 dMain=2 in=122/144 main=19/22 idx=66 qVar=0 areas={"site-footer":122,"main-other":21,"prose":1}
+/disclosure/                                               st=200 d=1 dMain=1 in=122/315 main=39/71 idx=66 qVar=0 areas={"main-other":54,"site-footer":244,"prose":17}
+/contact/                                                  st=200 d=1 dMain=2 in=122/125 main=3/3 idx=66 qVar=0 areas={"site-footer":122,"prose":3}
+/privacy/                                                  st=200 d=1 dMain=null in=122/122 main=0/0 idx=66 qVar=0 areas={"site-footer":122}
+/recommend/                                                st=200 d=1 dMain=1 in=122/372 main=5/6 idx=66 qVar=0 areas={"site-header":244,"main-other":4,"site-footer":122,"prose":1,"breadcrumb":1}
+/reviews/                                                  st=200 d=1 dMain=2 in=122/371 main=4/5 idx=66 qVar=0 areas={"site-header":244,"site-footer":122,"prose":1,"main-other":3,"breadcrumb":1}
+/compare/                                                  st=200 d=1 dMain=1 in=122/375 main=7/9 idx=66 qVar=18 areas={"site-header":244,"main-other":6,"site-footer":122,"prose":1,"breadcrumb":2}
+/speedtest/                                                st=200 d=1 dMain=1 in=122/377 main=8/11 idx=66 qVar=0 areas={"site-header":244,"main-other":6,"site-footer":122,"prose":2,"breadcrumb":3}
+/guides/                                                   st=200 d=1 dMain=1 in=122/383 main=10/17 idx=66 qVar=0 areas={"site-header":244,"main-other":10,"site-footer":122,"prose":1,"breadcrumb":6}
+/lingdongyun/                                              st=200 d=1 dMain=1 in=122/458 main=39/92 idx=66 qVar=0 areas={"site-header":244,"card":6,"main-other":67,"site-footer":122,"prose":16,"breadcrumb":3}
+/brands/flyv/                                              st=200 d=1 dMain=1 in=23/47 main=23/47 idx=23 qVar=0 areas={"card":6,"main-other":40,"prose":1}
+/brands/muguang-jiasu/                                     st=200 d=1 dMain=1 in=23/67 main=23/67 idx=23 qVar=0 areas={"card":6,"main-other":60,"prose":1}
+/brands/yinxingren/                                        st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/weifeng-wangluo/                                   st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/langwang/                                          st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/feimaoyun/                                         st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/dalaoyun/                                          st=200 d=1 dMain=1 in=23/45 main=23/45 idx=23 qVar=0 areas={"main-other":40,"card":4,"prose":1}
+/brands/wuyou/                                             st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/firefly/                                           st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/weituyun/                                          st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/lingmao/                                           st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/quanqiuyun/                                        st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/kuajie/                                            st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/shanyue/                                           st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/sogoyun/                                           st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/xingdaomeng/                                       st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/guangsuyun/                                        st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/brands/u1s1/                                              st=200 d=1 dMain=1 in=23/65 main=23/65 idx=23 qVar=0 areas={"main-other":60,"card":4,"prose":1}
+/articles/page/2/                                          st=200 d=2 dMain=2 in=1/2 main=1/2 idx=1 qVar=0 areas={"pagination":2}
+/recommend/how-to-choose-an-airport-2026/                  st=200 d=1 dMain=1 in=122/180 main=28/58 idx=66 qVar=0 areas={"card":18,"site-footer":122,"related":40}
+/speedtest/node-regions-explained/                         st=200 d=1 dMain=1 in=122/186 main=32/64 idx=66 qVar=0 areas={"card":20,"site-footer":122,"main-other":1,"related":42,"prev-next":1}
+/compare/how-to-read-airport-plans/                        st=200 d=1 dMain=1 in=122/217 main=47/95 idx=66 qVar=0 areas={"card":52,"site-footer":122,"related":42,"prev-next":1}
+/speedtest/lingdongyun-2026-11-01-node-unlock-check/       st=200 d=1 dMain=1 in=13/39 main=13/39 idx=7 qVar=0 areas={"card":28,"main-other":3,"prev-next":2,"related":6}
+/reviews/lingdongyun-review-2026/                          st=200 d=1 dMain=1 in=15/29 main=15/29 idx=10 qVar=0 areas={"card":16,"main-other":1,"related":12}
+/lingdongyun/lingdongyun-client-guide/                     st=200 d=1 dMain=1 in=14/31 main=14/31 idx=9 qVar=0 areas={"main-other":2,"card":16,"related":12,"prev-next":1}
+/speedtest/lingdongyun-2026-11-10-japan-node-report/       st=200 d=1 dMain=1 in=14/41 main=14/41 idx=8 qVar=0 areas={"card":30,"main-other":4,"prev-next":1,"related":6}
+/lingdongyun/lingdongyun-introduction/                     st=200 d=1 dMain=1 in=14/28 main=14/28 idx=9 qVar=0 areas={"card":16,"related":10,"prev-next":2}
+/lingdongyun/lingdongyun-plans-and-policies/               st=200 d=1 dMain=1 in=12/26 main=12/26 idx=6 qVar=0 areas={"card":18,"main-other":1,"related":6,"prev-next":1}
+/compare/lingdongyun-plans-compared/                       st=200 d=2 dMain=2 in=30/60 main=30/60 idx=25 qVar=0 areas={"card":50,"main-other":1,"prev-next":1,"related":8}
+/guides/android-client-setup/                              st=200 d=1 dMain=1 in=14/26 main=14/26 idx=9 qVar=0 areas={"main-other":3,"card":14,"prev-next":1,"related":8}
+/guides/clash-verge-rev-guide/                             st=200 d=1 dMain=1 in=14/30 main=14/30 idx=9 qVar=0 areas={"card":16,"main-other":4,"related":8,"prev-next":2}
+/guides/dns-and-connection-troubleshooting/                st=200 d=1 dMain=1 in=32/65 main=32/65 idx=27 qVar=0 areas={"main-other":3,"card":14,"prev-next":2,"related":46}
+/guides/ios-client-setup/                                  st=200 d=1 dMain=1 in=13/24 main=13/24 idx=8 qVar=0 areas={"main-other":4,"card":14,"related":4,"prev-next":2}
+/guides/tun-vs-system-proxy/                               st=200 d=1 dMain=1 in=13/26 main=13/26 idx=8 qVar=0 areas={"main-other":2,"card":14,"related":8,"prev-next":2}
+/guides/windows-client-setup/                              st=200 d=1 dMain=1 in=15/30 main=15/30 idx=10 qVar=0 areas={"main-other":3,"card":14,"related":12,"prev-next":1}
+
+## 孤立页（sitemap 外无入链）
+[]
+## 仅 main 区无入链
+[{"key":"/privacy/","inlinkPages":122,"byArea":{"site-footer":122}}]
+## 深度>=4
+[]
+## 仅正文链接深度>=4
+[{"key":"/privacy/","depthMainOnly":null,"depth":1}]
+
+## 抓到但不在 sitemap
+{"key":"/search/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/search/","robotsTxtBlocked":true,"redirectTo":null,"depth":1,"inlinkPages":122,"inlinkInstances":244}
+{"key":"/rss.xml","status":200,"contentType":"application/rss+xml","robotsMeta":null,"canonical":null,"robotsTxtBlocked":false,"redirectTo":null,"depth":1,"inlinkPages":123,"inlinkInstances":123}
+{"key":"/tags/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":56,"inlinkInstances":56}
+{"key":"/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%96%B0%E6%89%8B/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%96%B0%E6%89%8B/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":5,"inlinkInstances":5}
+{"key":"/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E7%BA%BF%E8%B7%AF/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E7%BA%BF%E8%B7%AF/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%A5%97%E9%A4%90/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%A5%97%E9%A4%90/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":6,"inlinkInstances":6}
+{"key":"/tags/Clash%20Verge%20Rev/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Clash%20Verge%20Rev/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":4,"inlinkInstances":4}
+{"key":"/tags/Clash/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Clash/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/Mihomo/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Mihomo/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E8%AE%A2%E9%98%85/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%AE%A2%E9%98%85/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":6,"inlinkInstances":6}
+{"key":"/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":8,"inlinkInstances":8}
+{"key":"/tags/%E5%AE%9E%E6%B5%8B/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%AE%9E%E6%B5%8B/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/%E6%97%A5%E6%9C%AC/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%97%A5%E6%9C%AC/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/IPCheck/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/IPCheck/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%BB%B6%E8%BF%9F/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%BB%B6%E8%BF%9F/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/YouTube/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/YouTube/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/compare/?brand=flyv","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=muguang-jiasu","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":5,"inlinkInstances":5}
+{"key":"/tags/%E6%95%99%E7%A8%8B/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%95%99%E7%A8%8B/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/compare/?brand=yinxingren","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=weifeng-wangluo","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=langwang","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=feimaoyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=dalaoyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=wuyou","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=firefly","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=weituyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=lingmao","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=quanqiuyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=kuajie","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=shanyue","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=sogoyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=xingdaomeng","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=guangsuyun","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/compare/?brand=u1s1","status":200,"contentType":"text/html","robotsMeta":"index, follow","canonical":"https://jichangxuan.blog/compare/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":1,"inlinkInstances":1}
+{"key":"/tags/%E8%A7%A3%E9%94%81/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%A7%A3%E9%94%81/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/MiaoKo/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/MiaoKo/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%B5%81%E5%AA%92%E4%BD%93/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%B5%81%E5%AA%92%E4%BD%93/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/OpenAI/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/OpenAI/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E8%8A%82%E7%82%B9/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%8A%82%E7%82%B9/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%9C%B0%E5%8C%BA/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%9C%B0%E5%8C%BA/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E9%A6%99%E6%B8%AF/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E9%A6%99%E6%B8%AF/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E7%BE%8E%E5%9B%BD/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E7%BE%8E%E5%9B%BD/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%B5%81%E9%87%8F/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%B5%81%E9%87%8F/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%80%8D%E7%8E%87/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%80%8D%E7%8E%87/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E4%BB%B7%E6%A0%BC/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E4%BB%B7%E6%A0%BC/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/%E6%B5%8B%E8%AF%84/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%B5%8B%E8%AF%84/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E4%B8%93%E7%BA%BF/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E4%B8%93%E7%BA%BF/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/IEPL/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/IEPL/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E4%BC%98%E6%83%A0%E7%A0%81/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E4%BC%98%E6%83%A0%E7%A0%81/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/%E9%80%80%E6%AC%BE/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E9%80%80%E6%AC%BE/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E5%AE%A2%E6%9C%8D/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%AE%A2%E6%9C%8D/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/Windows/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Windows/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/Android/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Android/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/Clash%20Meta/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Clash%20Meta/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/iOS/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/iOS/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/iPhone/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/iPhone/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/Shadowrocket/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/Shadowrocket/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/TUN/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/TUN/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/%E5%8E%9F%E7%90%86/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E5%8E%9F%E7%90%86/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":3,"inlinkInstances":3}
+{"key":"/tags/DNS/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/DNS/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/","robotsTxtBlocked":false,"redirectTo":null,"depth":2,"inlinkPages":2,"inlinkInstances":2}
+{"key":"/tags/ld888/","status":200,"contentType":"text/html","robotsMeta":"noindex, nofollow","canonical":"https://jichangxuan.blog/tags/ld888/","robotsTxtBlocked":false,"redirectTo":null,"depth":3,"inlinkPages":2,"inlinkInstances":2}
+
+## 非 200 的站内链接目标
+
+## 首页 → 七家品牌
+{"rank":1,"id":"lingdongyun","label":"灵动云","path":"/lingdongyun/","targetStatus":200,"linkCount":10,"firstLinkIndex":8,"links":[{"index":8,"anchor":"灵动云专区","area":"site-header","sections":[],"hrefRaw":"/lingdongyun/"},{"index":17,"anchor":"灵动云专区","area":"site-header","sections":[],"hrefRaw":"/lingdongyun/"},{"index":30,"anchor":"灵动云","area":"card","sections":["机场推荐"],"hrefRaw":"/lingdongyun/"},{"index":31,"anchor":"进入品牌专区","area":"card","sections":["机场推荐"],"hrefRaw":"/lingdongyun/"},{"index":36,"anchor":"查看套餐与优惠码","area":"main-other","sections":["灵动云LingDongYun"],"hrefRaw":"/lingdongyun/#plans"},{"index":39,"anchor":"进入灵动云专区","area":"main-other","sections":["灵动云LingDongYun"],"hrefRaw":"/lingdongyun/"},{"index":42,"anchor":"灵动云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/lingdongyun/"},{"index":43,"anchor":"灵动云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/lingdongyun/"},{"index":44,"anchor":"灵动云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/lingdongyun/"},{"index":147,"anchor":"灵动云专区","area":"site-footer","sections":[],"hrefRaw":"/lingdongyun/"}]}
+{"rank":2,"id":"muguang-jiasu","label":"暮光加速","path":"/brands/muguang-jiasu/","targetStatus":200,"linkCount":5,"firstLinkIndex":34,"links":[{"index":34,"anchor":"暮光加速","area":"card","sections":["机场推荐"],"hrefRaw":"/brands/muguang-jiasu/"},{"index":35,"anchor":"查看品牌资料页","area":"card","sections":["机场推荐"],"hrefRaw":"/brands/muguang-jiasu/"},{"index":47,"anchor":"暮光加速","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/muguang-jiasu/"},{"index":48,"anchor":"暮光加速","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/muguang-jiasu/"},{"index":49,"anchor":"暮光加速","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/muguang-jiasu/"}]}
+{"rank":3,"id":"weifeng-wangluo","label":"微风网络 Breezenet","path":"/brands/weifeng-wangluo/","targetStatus":200,"linkCount":3,"firstLinkIndex":53,"links":[{"index":53,"anchor":"微风网络","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/weifeng-wangluo/"},{"index":54,"anchor":"微风网络","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/weifeng-wangluo/"},{"index":55,"anchor":"微风网络","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/weifeng-wangluo/"}]}
+{"rank":4,"id":"feimaoyun","label":"飞猫云","path":"/brands/feimaoyun/","targetStatus":200,"linkCount":3,"firstLinkIndex":59,"links":[{"index":59,"anchor":"飞猫云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/feimaoyun/"},{"index":60,"anchor":"飞猫云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/feimaoyun/"},{"index":61,"anchor":"飞猫云","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/feimaoyun/"}]}
+{"rank":5,"id":"flyv","label":"FLYV 飞V","path":"/brands/flyv/","targetStatus":200,"linkCount":4,"firstLinkIndex":32,"links":[{"index":32,"anchor":"飞V","area":"card","sections":["机场推荐"],"hrefRaw":"/brands/flyv/"},{"index":33,"anchor":"查看品牌资料页","area":"card","sections":["机场推荐"],"hrefRaw":"/brands/flyv/"},{"index":45,"anchor":"飞V","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/flyv/"},{"index":46,"anchor":"飞V","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/flyv/"}]}
+{"rank":6,"id":"langwang","label":"浪网 WaveNet","path":"/brands/langwang/","targetStatus":200,"linkCount":3,"firstLinkIndex":56,"links":[{"index":56,"anchor":"浪网","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/langwang/"},{"index":57,"anchor":"浪网","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/langwang/"},{"index":58,"anchor":"浪网","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/langwang/"}]}
+{"rank":7,"id":"yinxingren","label":"隐形人","path":"/brands/yinxingren/","targetStatus":200,"linkCount":3,"firstLinkIndex":50,"links":[{"index":50,"anchor":"隐形人","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/yinxingren/"},{"index":51,"anchor":"隐形人","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/yinxingren/"},{"index":52,"anchor":"隐形人","area":"main-other","sections":["套餐比较"],"hrefRaw":"/brands/yinxingren/"}]}
+## 首页品牌页链接出现顺序
+{"path":"/lingdongyun/","brand":"lingdongyun","firstIndex":8,"anchor":"灵动云专区","section":null}
+{"path":"/brands/flyv/","brand":"flyv","firstIndex":32,"anchor":"飞V","section":"机场推荐"}
+{"path":"/brands/muguang-jiasu/","brand":"muguang-jiasu","firstIndex":34,"anchor":"暮光加速","section":"机场推荐"}
+{"path":"/brands/yinxingren/","brand":"yinxingren","firstIndex":50,"anchor":"隐形人","section":"套餐比较"}
+{"path":"/brands/weifeng-wangluo/","brand":"weifeng-wangluo","firstIndex":53,"anchor":"微风网络","section":"套餐比较"}
+{"path":"/brands/langwang/","brand":"langwang","firstIndex":56,"anchor":"浪网","section":"套餐比较"}
+{"path":"/brands/feimaoyun/","brand":"feimaoyun","firstIndex":59,"anchor":"飞猫云","section":"套餐比较"}
+{"path":"/brands/dalaoyun/","brand":"dalaoyun","firstIndex":62,"anchor":"大佬云","section":"套餐比较"}
+{"path":"/brands/wuyou/","brand":"wuyou","firstIndex":64,"anchor":"无忧链接","section":"套餐比较"}
+{"path":"/brands/firefly/","brand":"firefly","firstIndex":67,"anchor":"Firefly","section":"套餐比较"}
+{"path":"/brands/weituyun/","brand":"weituyun","firstIndex":70,"anchor":"唯兔云","section":"套餐比较"}
+{"path":"/brands/lingmao/","brand":"lingmao","firstIndex":73,"anchor":"灵猫","section":"套餐比较"}
+{"path":"/brands/quanqiuyun/","brand":"quanqiuyun","firstIndex":76,"anchor":"全球云","section":"套餐比较"}
+{"path":"/brands/kuajie/","brand":"kuajie","firstIndex":79,"anchor":"跨界","section":"套餐比较"}
+{"path":"/brands/shanyue/","brand":"shanyue","firstIndex":82,"anchor":"闪跃","section":"套餐比较"}
+{"path":"/brands/sogoyun/","brand":"sogoyun","firstIndex":85,"anchor":"Sogo云","section":"套餐比较"}
+{"path":"/brands/xingdaomeng/","brand":"xingdaomeng","firstIndex":88,"anchor":"星岛梦","section":"套餐比较"}
+{"path":"/brands/guangsuyun/","brand":"guangsuyun","firstIndex":91,"anchor":"光速云","section":"套餐比较"}
+{"path":"/brands/u1s1/","brand":"u1s1","firstIndex":94,"anchor":"有一说一","section":"套餐比较"}
+
+## 品牌页 → /compare/
+{"page":"/lingdongyun/","brand":"lingdongyun","inDirective":true,"compareArticleLinks":[{"target":"/compare/lingdongyun-plans-compared/","anchor":"哪一档适合你：套餐横向比较","area":"main-other"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/flyv/","brand":"flyv","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=flyv","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/muguang-jiasu/","brand":"muguang-jiasu","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=muguang-jiasu","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/yinxingren/","brand":"yinxingren","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=yinxingren","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/weifeng-wangluo/","brand":"weifeng-wangluo","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=weifeng-wangluo","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/langwang/","brand":"langwang","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=langwang","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/feimaoyun/","brand":"feimaoyun","inDirective":true,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=feimaoyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/dalaoyun/","brand":"dalaoyun","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=dalaoyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/wuyou/","brand":"wuyou","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=wuyou","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/firefly/","brand":"firefly","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=firefly","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/weituyun/","brand":"weituyun","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=weituyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/lingmao/","brand":"lingmao","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=lingmao","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/quanqiuyun/","brand":"quanqiuyun","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=quanqiuyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/kuajie/","brand":"kuajie","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=kuajie","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/shanyue/","brand":"shanyue","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=shanyue","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/sogoyun/","brand":"sogoyun","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=sogoyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/xingdaomeng/","brand":"xingdaomeng","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=xingdaomeng","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/guangsuyun/","brand":"guangsuyun","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=guangsuyun","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+{"page":"/brands/u1s1/","brand":"u1s1","inDirective":false,"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"site-footer"}],"compareRootLinks":[{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/","anchor":"套餐比较","area":"site-header"},{"target":"/compare/?brand=u1s1","anchor":"在套餐比较表里与其他品牌对比","area":"main-other"},{"target":"/compare/","anchor":"套餐比较","area":"site-footer"}]}
+
+## 教程出链
+{"page":"/guides/clash-verge-rev-guide/","h1":"Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题","area":"related"}],"guideLinks":[{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"上一篇DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"prev-next"},{"target":"/guides/android-client-setup/","anchor":"下一篇Android 机场客户端使用教程：官方客户端与 Clash Meta for Android","area":"prev-next"},{"target":"/guides/windows-client-setup/","anchor":"","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"Windows 机场客户端安装与使用教程：从下载到连上","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/dns-and-connection-troubleshooting/","/guides/android-client-setup/","/guides/windows-client-setup/","/guides/tun-vs-system-proxy/"],"compareArticleLinks":[],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+{"page":"/guides/windows-client-setup/","h1":"Windows 机场客户端安装与使用教程：从下载到连上","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题","area":"related"}],"guideLinks":[{"target":"/guides/tun-vs-system-proxy/","anchor":"下一篇TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"prev-next"},{"target":"/guides/clash-verge-rev-guide/","anchor":"","area":"related"},{"target":"/guides/clash-verge-rev-guide/","anchor":"Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/tun-vs-system-proxy/","/guides/clash-verge-rev-guide/","/guides/dns-and-connection-troubleshooting/"],"compareArticleLinks":[],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+{"page":"/guides/android-client-setup/","h1":"Android 机场客户端使用教程：官方客户端与 Clash Meta for Android","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[],"guideLinks":[{"target":"/guides/clash-verge-rev-guide/","anchor":"上一篇Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","area":"prev-next"},{"target":"/guides/windows-client-setup/","anchor":"","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"Windows 机场客户端安装与使用教程：从下载到连上","area":"related"},{"target":"/guides/ios-client-setup/","anchor":"","area":"related"},{"target":"/guides/ios-client-setup/","anchor":"iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/clash-verge-rev-guide/","/guides/windows-client-setup/","/guides/ios-client-setup/","/guides/dns-and-connection-troubleshooting/","/guides/tun-vs-system-proxy/"],"compareArticleLinks":[],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+{"page":"/guides/ios-client-setup/","h1":"iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-client-guide/","anchor":"灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题","area":"related"}],"guideLinks":[{"target":"/guides/tun-vs-system-proxy/","anchor":"上一篇TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"prev-next"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"下一篇DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"prev-next"},{"target":"/guides/android-client-setup/","anchor":"","area":"related"},{"target":"/guides/android-client-setup/","anchor":"Android 机场客户端使用教程：官方客户端与 Clash Meta for Android","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"Windows 机场客户端安装与使用教程：从下载到连上","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/tun-vs-system-proxy/","/guides/dns-and-connection-troubleshooting/","/guides/android-client-setup/","/guides/windows-client-setup/"],"compareArticleLinks":[],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+{"page":"/guides/tun-vs-system-proxy/","h1":"TUN 模式与系统代理有什么区别？什么时候该用哪个","brandPageLinks":[],"brandPageLinksInProse":0,"distinctBrandPagesLinked":[],"lingdongyunArticleLinks":[],"guideLinks":[{"target":"/guides/windows-client-setup/","anchor":"上一篇Windows 机场客户端安装与使用教程：从下载到连上","area":"prev-next"},{"target":"/guides/ios-client-setup/","anchor":"下一篇iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端","area":"prev-next"},{"target":"/guides/clash-verge-rev-guide/","anchor":"","area":"related"},{"target":"/guides/clash-verge-rev-guide/","anchor":"Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"","area":"related"},{"target":"/guides/dns-and-connection-troubleshooting/","anchor":"DNS 与连接故障排查：客户端显示已连接但打不开网页","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"Windows 机场客户端安装与使用教程：从下载到连上","area":"related"},{"target":"/guides/android-client-setup/","anchor":"","area":"related"},{"target":"/guides/android-client-setup/","anchor":"Android 机场客户端使用教程：官方客户端与 Clash Meta for Android","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/windows-client-setup/","/guides/ios-client-setup/","/guides/clash-verge-rev-guide/","/guides/dns-and-connection-troubleshooting/","/guides/android-client-setup/"],"compareArticleLinks":[],"externalLinks":[]}
+{"page":"/guides/dns-and-connection-troubleshooting/","h1":"DNS 与连接故障排查：客户端显示已连接但打不开网页","brandPageLinks":[],"brandPageLinksInProse":0,"distinctBrandPagesLinked":[],"lingdongyunArticleLinks":[],"guideLinks":[{"target":"/guides/ios-client-setup/","anchor":"上一篇iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端","area":"prev-next"},{"target":"/guides/clash-verge-rev-guide/","anchor":"下一篇Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","area":"prev-next"},{"target":"/guides/tun-vs-system-proxy/","anchor":"","area":"related"},{"target":"/guides/tun-vs-system-proxy/","anchor":"TUN 模式与系统代理有什么区别？什么时候该用哪个","area":"related"},{"target":"/guides/clash-verge-rev-guide/","anchor":"","area":"related"},{"target":"/guides/clash-verge-rev-guide/","anchor":"Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"","area":"related"},{"target":"/guides/windows-client-setup/","anchor":"Windows 机场客户端安装与使用教程：从下载到连上","area":"related"},{"target":"/guides/android-client-setup/","anchor":"","area":"related"},{"target":"/guides/android-client-setup/","anchor":"Android 机场客户端使用教程：官方客户端与 Clash Meta for Android","area":"related"}],"guideLinksInProse":0,"distinctGuidesLinked":["/guides/ios-client-setup/","/guides/clash-verge-rev-guide/","/guides/tun-vs-system-proxy/","/guides/windows-client-setup/","/guides/android-client-setup/"],"compareArticleLinks":[],"externalLinks":[]}
+
+## 比较文章出链
+{"page":"/compare/how-to-read-airport-plans/","h1":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[{"target":"/lingdongyun/lingdongyun-plans-and-policies/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-plans-and-policies/","anchor":"灵动云套餐、优惠码与支持政策：流量规则、退款、客服与防骗","area":"related"}],"guideLinks":[],"guideLinksInProse":0,"distinctGuidesLinked":[],"compareArticleLinks":[{"target":"/compare/lingdongyun-plans-compared/","anchor":"上一篇灵动云套餐横向比较：拂风、驭浪、破晓、凌霄、穿云与流量包哪档适合你","area":"prev-next"},{"target":"/compare/lingdongyun-plans-compared/","anchor":"","area":"related"},{"target":"/compare/lingdongyun-plans-compared/","anchor":"灵动云套餐横向比较：拂风、驭浪、破晓、凌霄、穿云与流量包哪档适合你","area":"related"}],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+{"page":"/compare/lingdongyun-plans-compared/","h1":"灵动云套餐横向比较：拂风、驭浪、破晓、凌霄、穿云与流量包哪档适合你","brandPageLinks":[{"target":"/lingdongyun/","anchor":"品牌专区","area":"prose"}],"brandPageLinksInProse":1,"distinctBrandPagesLinked":["/lingdongyun/"],"lingdongyunArticleLinks":[{"target":"/lingdongyun/lingdongyun-plans-and-policies/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-plans-and-policies/","anchor":"灵动云套餐、优惠码与支持政策：流量规则、退款、客服与防骗","area":"related"},{"target":"/lingdongyun/lingdongyun-introduction/","anchor":"","area":"related"},{"target":"/lingdongyun/lingdongyun-introduction/","anchor":"灵动云是什么：品牌介绍、线路节点、客户端政策与适合人群","area":"related"}],"guideLinks":[],"guideLinksInProse":0,"distinctGuidesLinked":[],"compareArticleLinks":[{"target":"/compare/how-to-read-airport-plans/","anchor":"下一篇看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"prev-next"},{"target":"/compare/how-to-read-airport-plans/","anchor":"","area":"related"},{"target":"/compare/how-to-read-airport-plans/","anchor":"看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思","area":"related"}],"externalLinks":[{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","anchor":"官网注册","rel":"sponsored nofollow noopener noreferrer","area":"prose"}]}
+
+## 文章可达性（首页 / 栏目页）
+{"page":"/recommend/how-to-choose-an-airport-2026/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/","/articles/page/2/"],"homeLinkAreas":["card@精选文章","card@精选文章","card@最新文章","card@最新文章","site-footer"]}
+{"page":"/guides/clash-verge-rev-guide/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["card@精选文章","card@精选文章","main-other@新手教程"]}
+{"page":"/speedtest/lingdongyun-2026-11-10-japan-node-report/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["card@精选文章","card@精选文章","card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@最新文章","card@最新文章"]}
+{"page":"/lingdongyun/lingdongyun-client-guide/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["main-other@灵动云LingDongYun","card@最新文章","card@最新文章"]}
+{"page":"/speedtest/lingdongyun-2026-11-01-node-unlock-check/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@节点知识与测速","card@最新文章","card@最新文章"]}
+{"page":"/speedtest/node-regions-explained/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/","/articles/page/2/"],"homeLinkAreas":["card@最新文章","card@最新文章","site-footer"]}
+{"page":"/compare/how-to-read-airport-plans/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/","/articles/page/2/"],"homeLinkAreas":["card@最新文章","card@最新文章","site-footer"]}
+{"page":"/reviews/lingdongyun-review-2026/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["card@最新文章","card@最新文章"]}
+{"page":"/lingdongyun/lingdongyun-introduction/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["card@最新文章","card@最新文章"]}
+{"page":"/lingdongyun/lingdongyun-plans-and-policies/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/"],"homeLinkAreas":["card@最新文章","card@最新文章"]}
+{"page":"/guides/windows-client-setup/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["main-other@新手教程"]}
+{"page":"/guides/android-client-setup/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["main-other@新手教程"]}
+{"page":"/guides/ios-client-setup/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["main-other@新手教程"]}
+{"page":"/guides/tun-vs-system-proxy/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["main-other@新手教程"]}
+{"page":"/guides/dns-and-connection-troubleshooting/","fromHome":true,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":["main-other@新手教程"]}
+{"page":"/compare/lingdongyun-plans-compared/","fromHome":false,"fromCategoryRoot":true,"fromCategoryPaged":[],"fromArticlesIndex":["/articles/page/2/"],"homeLinkAreas":[]}
+
+## 面包屑
+{"page":"/","trail":null,"problems":[]}
+{"page":"/recommend/","trail":"首页→/ › [机场推荐]","problems":[]}
+{"page":"/reviews/","trail":"首页→/ › [机场测评]","problems":[]}
+{"page":"/compare/","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/speedtest/","trail":"首页→/ › [节点实测]","problems":[]}
+{"page":"/guides/","trail":"首页→/ › [使用教程]","problems":[]}
+{"page":"/lingdongyun/","trail":"首页→/ › [灵动云专区]","problems":[]}
+{"page":"/about/","trail":"首页→/ › [关于]","problems":[]}
+{"page":"/search/","trail":null,"problems":["无可见面包屑"]}
+{"page":"/articles/","trail":"首页→/ › [全部文章]","problems":[]}
+{"page":"/recommend/how-to-choose-an-airport-2026/","trail":"首页→/ › 机场推荐→/recommend/ › [2026 机场怎么选：7 个维度和一份不会后悔的购买顺序]","problems":[]}
+{"page":"/guides/clash-verge-rev-guide/","trail":"首页→/ › 使用教程→/guides/ › [Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置]","problems":[]}
+{"page":"/speedtest/lingdongyun-2026-11-10-japan-node-report/","trail":"首页→/ › 节点实测→/speedtest/ › [灵动云日本5 节点实测报告（2026-11-10）：下载 191 Mbps，上传 2.17 Mbps]","problems":[]}
+{"page":"/brands/","trail":"首页→/ › [品牌资料库]","problems":[]}
+{"page":"/brands/flyv/","trail":"首页→/ › 品牌资料库→/brands/ › [飞V]","problems":[]}
+{"page":"/brands/muguang-jiasu/","trail":"首页→/ › 品牌资料库→/brands/ › [暮光加速]","problems":[]}
+{"page":"/lingdongyun/lingdongyun-client-guide/","trail":"首页→/ › 灵动云专区→/lingdongyun/ › [灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题]","problems":[]}
+{"page":"/disclosure/","trail":"首页→/ › [商业关系披露]","problems":[]}
+{"page":"/brands/yinxingren/","trail":"首页→/ › 品牌资料库→/brands/ › [隐形人]","problems":[]}
+{"page":"/brands/weifeng-wangluo/","trail":"首页→/ › 品牌资料库→/brands/ › [微风网络]","problems":[]}
+{"page":"/brands/langwang/","trail":"首页→/ › 品牌资料库→/brands/ › [浪网]","problems":[]}
+{"page":"/brands/feimaoyun/","trail":"首页→/ › 品牌资料库→/brands/ › [飞猫云]","problems":[]}
+{"page":"/brands/dalaoyun/","trail":"首页→/ › 品牌资料库→/brands/ › [大佬云]","problems":[]}
+{"page":"/brands/wuyou/","trail":"首页→/ › 品牌资料库→/brands/ › [无忧链接]","problems":[]}
+{"page":"/brands/firefly/","trail":"首页→/ › 品牌资料库→/brands/ › [Firefly]","problems":[]}
+{"page":"/brands/weituyun/","trail":"首页→/ › 品牌资料库→/brands/ › [唯兔云]","problems":[]}
+{"page":"/brands/lingmao/","trail":"首页→/ › 品牌资料库→/brands/ › [灵猫]","problems":[]}
+{"page":"/brands/quanqiuyun/","trail":"首页→/ › 品牌资料库→/brands/ › [全球云]","problems":[]}
+{"page":"/brands/kuajie/","trail":"首页→/ › 品牌资料库→/brands/ › [跨界]","problems":[]}
+{"page":"/brands/shanyue/","trail":"首页→/ › 品牌资料库→/brands/ › [闪跃]","problems":[]}
+{"page":"/brands/sogoyun/","trail":"首页→/ › 品牌资料库→/brands/ › [Sogo云]","problems":[]}
+{"page":"/brands/xingdaomeng/","trail":"首页→/ › 品牌资料库→/brands/ › [星岛梦]","problems":[]}
+{"page":"/brands/guangsuyun/","trail":"首页→/ › 品牌资料库→/brands/ › [光速云]","problems":[]}
+{"page":"/brands/u1s1/","trail":"首页→/ › 品牌资料库→/brands/ › [有一说一]","problems":[]}
+{"page":"/speedtest/lingdongyun-2026-11-01-node-unlock-check/","trail":"首页→/ › 节点实测→/speedtest/ › [灵动云 60 个节点解锁检测记录（2026-11-01，MiaoKo，珠海联通）]","problems":[]}
+{"page":"/speedtest/node-regions-explained/","trail":"首页→/ › 节点实测→/speedtest/ › [机场节点地区怎么选：香港、日本、新加坡、台湾、美国、韩国、欧洲]","problems":[]}
+{"page":"/compare/how-to-read-airport-plans/","trail":"首页→/ › 套餐比较→/compare/ › [看懂机场套餐：流量、周期、倍率、设备数与重置包都是什么意思]","problems":[]}
+{"page":"/reviews/lingdongyun-review-2026/","trail":"首页→/ › 机场测评→/reviews/ › [灵动云测评（2026）：资料、三份测试记录与实际使用的综合评价]","problems":[]}
+{"page":"/lingdongyun/lingdongyun-introduction/","trail":"首页→/ › 灵动云专区→/lingdongyun/ › [灵动云是什么：品牌介绍、线路节点、客户端政策与适合人群]","problems":[]}
+{"page":"/lingdongyun/lingdongyun-plans-and-policies/","trail":"首页→/ › 灵动云专区→/lingdongyun/ › [灵动云套餐、优惠码与支持政策：流量规则、退款、客服与防骗]","problems":[]}
+{"page":"/guides/windows-client-setup/","trail":"首页→/ › 使用教程→/guides/ › [Windows 机场客户端安装与使用教程：从下载到连上]","problems":[]}
+{"page":"/guides/android-client-setup/","trail":"首页→/ › 使用教程→/guides/ › [Android 机场客户端使用教程：官方客户端与 Clash Meta for Android]","problems":[]}
+{"page":"/guides/ios-client-setup/","trail":"首页→/ › 使用教程→/guides/ › [iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端]","problems":[]}
+{"page":"/guides/tun-vs-system-proxy/","trail":"首页→/ › 使用教程→/guides/ › [TUN 模式与系统代理有什么区别？什么时候该用哪个]","problems":[]}
+{"page":"/guides/dns-and-connection-troubleshooting/","trail":"首页→/ › 使用教程→/guides/ › [DNS 与连接故障排查：客户端显示已连接但打不开网页]","problems":[]}
+{"page":"/methodology/","trail":"首页→/ › [测评方法]","problems":[]}
+{"page":"/contact/","trail":"首页→/ › [联系与纠错]","problems":[]}
+{"page":"/privacy/","trail":"首页→/ › [隐私说明]","problems":[]}
+{"page":"/compare/lingdongyun-plans-compared/","trail":"首页→/ › 套餐比较→/compare/ › [灵动云套餐横向比较：拂风、驭浪、破晓、凌霄、穿云与流量包哪档适合你]","problems":[]}
+{"page":"/tags/","trail":"首页→/ › [标签]","problems":[]}
+{"page":"/articles/page/2/","trail":"首页→/ › 全部文章→/articles/ › [第 2 页]","problems":[]}
+{"page":"/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/","trail":"首页→/ › 标签→/tags/ › [机场选择]","problems":[]}
+{"page":"/tags/%E6%96%B0%E6%89%8B/","trail":"首页→/ › 标签→/tags/ › [新手]","problems":[]}
+{"page":"/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/","trail":"首页→/ › 标签→/tags/ › [选购指南]","problems":[]}
+{"page":"/tags/%E7%BA%BF%E8%B7%AF/","trail":"首页→/ › 标签→/tags/ › [线路]","problems":[]}
+{"page":"/tags/%E5%A5%97%E9%A4%90/","trail":"首页→/ › 标签→/tags/ › [套餐]","problems":[]}
+{"page":"/tags/Clash%20Verge%20Rev/","trail":"首页→/ › 标签→/tags/ › [Clash Verge Rev]","problems":[]}
+{"page":"/tags/Clash/","trail":"首页→/ › 标签→/tags/ › [Clash]","problems":[]}
+{"page":"/tags/Mihomo/","trail":"首页→/ › 标签→/tags/ › [Mihomo]","problems":[]}
+{"page":"/tags/%E8%AE%A2%E9%98%85/","trail":"首页→/ › 标签→/tags/ › [订阅]","problems":[]}
+{"page":"/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/","trail":"首页→/ › 标签→/tags/ › [规则模式]","problems":[]}
+{"page":"/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/","trail":"首页→/ › 标签→/tags/ › [灵动云]","problems":[]}
+{"page":"/tags/%E5%AE%9E%E6%B5%8B/","trail":"首页→/ › 标签→/tags/ › [实测]","problems":[]}
+{"page":"/tags/%E6%97%A5%E6%9C%AC/","trail":"首页→/ › 标签→/tags/ › [日本]","problems":[]}
+{"page":"/tags/IPCheck/","trail":"首页→/ › 标签→/tags/ › [IPCheck]","problems":[]}
+{"page":"/tags/%E5%BB%B6%E8%BF%9F/","trail":"首页→/ › 标签→/tags/ › [延迟]","problems":[]}
+{"page":"/tags/YouTube/","trail":"首页→/ › 标签→/tags/ › [YouTube]","problems":[]}
+{"page":"/compare/?brand=flyv","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=muguang-jiasu","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/","trail":"首页→/ › 标签→/tags/ › [客户端]","problems":[]}
+{"page":"/tags/%E6%95%99%E7%A8%8B/","trail":"首页→/ › 标签→/tags/ › [教程]","problems":[]}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/","trail":"首页→/ › 标签→/tags/ › [节点切换]","problems":[]}
+{"page":"/compare/?brand=yinxingren","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=weifeng-wangluo","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=langwang","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=feimaoyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=dalaoyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=wuyou","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=firefly","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=weituyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=lingmao","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=quanqiuyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=kuajie","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=shanyue","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=sogoyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=xingdaomeng","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=guangsuyun","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/compare/?brand=u1s1","trail":"首页→/ › [套餐比较]","problems":[]}
+{"page":"/tags/%E8%A7%A3%E9%94%81/","trail":"首页→/ › 标签→/tags/ › [解锁]","problems":[]}
+{"page":"/tags/MiaoKo/","trail":"首页→/ › 标签→/tags/ › [MiaoKo]","problems":[]}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/","trail":"首页→/ › 标签→/tags/ › [节点检测]","problems":[]}
+{"page":"/tags/%E6%B5%81%E5%AA%92%E4%BD%93/","trail":"首页→/ › 标签→/tags/ › [流媒体]","problems":[]}
+{"page":"/tags/OpenAI/","trail":"首页→/ › 标签→/tags/ › [OpenAI]","problems":[]}
+{"page":"/tags/%E8%8A%82%E7%82%B9/","trail":"首页→/ › 标签→/tags/ › [节点]","problems":[]}
+{"page":"/tags/%E5%9C%B0%E5%8C%BA/","trail":"首页→/ › 标签→/tags/ › [地区]","problems":[]}
+{"page":"/tags/%E9%A6%99%E6%B8%AF/","trail":"首页→/ › 标签→/tags/ › [香港]","problems":[]}
+{"page":"/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/","trail":"首页→/ › 标签→/tags/ › [新加坡]","problems":[]}
+{"page":"/tags/%E7%BE%8E%E5%9B%BD/","trail":"首页→/ › 标签→/tags/ › [美国]","problems":[]}
+{"page":"/tags/%E6%B5%81%E9%87%8F/","trail":"首页→/ › 标签→/tags/ › [流量]","problems":[]}
+{"page":"/tags/%E5%80%8D%E7%8E%87/","trail":"首页→/ › 标签→/tags/ › [倍率]","problems":[]}
+{"page":"/tags/%E4%BB%B7%E6%A0%BC/","trail":"首页→/ › 标签→/tags/ › [价格]","problems":[]}
+{"page":"/tags/%E6%B5%8B%E8%AF%84/","trail":"首页→/ › 标签→/tags/ › [测评]","problems":[]}
+{"page":"/tags/%E4%B8%93%E7%BA%BF/","trail":"首页→/ › 标签→/tags/ › [专线]","problems":[]}
+{"page":"/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/","trail":"首页→/ › 标签→/tags/ › [品牌介绍]","problems":[]}
+{"page":"/tags/IEPL/","trail":"首页→/ › 标签→/tags/ › [IEPL]","problems":[]}
+{"page":"/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/","trail":"首页→/ › 标签→/tags/ › [官方客户端]","problems":[]}
+{"page":"/tags/%E4%BC%98%E6%83%A0%E7%A0%81/","trail":"首页→/ › 标签→/tags/ › [优惠码]","problems":[]}
+{"page":"/tags/%E9%80%80%E6%AC%BE/","trail":"首页→/ › 标签→/tags/ › [退款]","problems":[]}
+{"page":"/tags/%E5%AE%A2%E6%9C%8D/","trail":"首页→/ › 标签→/tags/ › [客服]","problems":[]}
+{"page":"/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/","trail":"首页→/ › 标签→/tags/ › [流量规则]","problems":[]}
+{"page":"/tags/Windows/","trail":"首页→/ › 标签→/tags/ › [Windows]","problems":[]}
+{"page":"/tags/Android/","trail":"首页→/ › 标签→/tags/ › [Android]","problems":[]}
+{"page":"/tags/Clash%20Meta/","trail":"首页→/ › 标签→/tags/ › [Clash Meta]","problems":[]}
+{"page":"/tags/iOS/","trail":"首页→/ › 标签→/tags/ › [iOS]","problems":[]}
+{"page":"/tags/iPhone/","trail":"首页→/ › 标签→/tags/ › [iPhone]","problems":[]}
+{"page":"/tags/Shadowrocket/","trail":"首页→/ › 标签→/tags/ › [Shadowrocket]","problems":[]}
+{"page":"/tags/TUN/","trail":"首页→/ › 标签→/tags/ › [TUN]","problems":[]}
+{"page":"/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/","trail":"首页→/ › 标签→/tags/ › [系统代理]","problems":[]}
+{"page":"/tags/%E5%8E%9F%E7%90%86/","trail":"首页→/ › 标签→/tags/ › [原理]","problems":[]}
+{"page":"/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/","trail":"首页→/ › 标签→/tags/ › [故障排查]","problems":[]}
+{"page":"/tags/DNS/","trail":"首页→/ › 标签→/tags/ › [DNS]","problems":[]}
+{"page":"/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/","trail":"首页→/ › 标签→/tags/ › [连接问题]","problems":[]}
+{"page":"/tags/ld888/","trail":"首页→/ › 标签→/tags/ › [ld888]","problems":[]}
+
+## 卡片与相关阅读锚文本
+{
+ "relatedSection": {
+  "empty": 135,
+  "exact-h1": 135
+ },
+ "cards": {
+  "empty": 300,
+  "exact-h1": 320
+ },
+ "all": {
+  "card:empty": 165,
+  "card:exact-h1": 185,
+  "main-other:different": 30,
+  "site-footer:exact-h1": 369,
+  "main-other:exact-h1": 2,
+  "related:empty": 135,
+  "related:exact-h1": 135,
+  "prev-next:contains-h1": 20
+ },
+ "emptyImageLinks": 300,
+ "emptyImageLinksAriaHidden": 300,
+ "differentSamples": [
+  {
+   "anchor": "客户端教程",
+   "target": "/lingdongyun/lingdongyun-client-guide/",
+   "h1": "灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "Windows安装客户端、导入订阅、系统代理",
+   "target": "/guides/windows-client-setup/",
+   "h1": "Windows 机场客户端安装与使用教程：从下载到连上",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "AndroidClash Meta for Android 与官方客户端",
+   "target": "/guides/android-client-setup/",
+   "h1": "Android 机场客户端使用教程：官方客户端与 Clash Meta for Android",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "iOSApp Store 区域、Shadowrocket 与 TUN",
+   "target": "/guides/ios-client-setup/",
+   "h1": "iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "Clash Verge Rev订阅、规则模式、全局模式与常见设置",
+   "target": "/guides/clash-verge-rev-guide/",
+   "h1": "Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "TUN 与系统代理两种模式的区别与选择",
+   "target": "/guides/tun-vs-system-proxy/",
+   "h1": "TUN 模式与系统代理有什么区别？什么时候该用哪个",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "DNS 与连接故障连上却打不开网页时怎么排查",
+   "target": "/guides/dns-and-connection-troubleshooting/",
+   "h1": "DNS 与连接故障排查：客户端显示已连接但打不开网页",
+   "area": "main-other",
+   "sources": [
+    "/"
+   ]
+  },
+  {
+   "anchor": "Windows",
+   "target": "/guides/windows-client-setup/",
+   "h1": "Windows 机场客户端安装与使用教程：从下载到连上",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "Android",
+   "target": "/guides/android-client-setup/",
+   "h1": "Android 机场客户端使用教程：官方客户端与 Clash Meta for Android",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "iOS",
+   "target": "/guides/ios-client-setup/",
+   "h1": "iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "Clash Verge Rev",
+   "target": "/guides/clash-verge-rev-guide/",
+   "h1": "Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "TUN 与系统代理",
+   "target": "/guides/tun-vs-system-proxy/",
+   "h1": "TUN 模式与系统代理有什么区别？什么时候该用哪个",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "DNS 与连接故障",
+   "target": "/guides/dns-and-connection-troubleshooting/",
+   "h1": "DNS 与连接故障排查：客户端显示已连接但打不开网页",
+   "area": "main-other",
+   "sources": [
+    "/guides/"
+   ]
+  },
+  {
+   "anchor": "哪一档适合你：套餐横向比较",
+   "target": "/compare/lingdongyun-plans-compared/",
+   "h1": "灵动云套餐横向比较：拂风、驭浪、破晓、凌霄、穿云与流量包哪档适合你",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "流量规则、退款与支持政策",
+   "target": "/lingdongyun/lingdongyun-plans-and-policies/",
+   "h1": "灵动云套餐、优惠码与支持政策：流量规则、退款、客服与防骗",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "完整客户端教程：登录、切换节点、订阅申请、TUN 与 DNS",
+   "target": "/lingdongyun/lingdongyun-client-guide/",
+   "h1": "灵动云客户端使用教程：注册、登录、切换节点、申请订阅与常见问题",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "Windows 客户端教程",
+   "target": "/guides/windows-client-setup/",
+   "h1": "Windows 机场客户端安装与使用教程：从下载到连上",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "Android 客户端教程",
+   "target": "/guides/android-client-setup/",
+   "h1": "Android 机场客户端使用教程：官方客户端与 Clash Meta for Android",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "iOS 客户端教程",
+   "target": "/guides/ios-client-setup/",
+   "h1": "iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "Clash Verge Rev 使用教程（申请订阅后使用）",
+   "target": "/guides/clash-verge-rev-guide/",
+   "h1": "Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "各地区节点分别适合做什么",
+   "target": "/speedtest/node-regions-explained/",
+   "h1": "机场节点地区怎么选：香港、日本、新加坡、台湾、美国、韩国、欧洲",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "查看相关教程",
+   "target": "/guides/dns-and-connection-troubleshooting/",
+   "h1": "DNS 与连接故障排查：客户端显示已连接但打不开网页",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "查看相关教程",
+   "target": "/guides/clash-verge-rev-guide/",
+   "h1": "Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "查看相关教程",
+   "target": "/guides/ios-client-setup/",
+   "h1": "iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "查看相关教程",
+   "target": "/reviews/lingdongyun-review-2026/",
+   "h1": "灵动云测评（2026）：资料、三份测试记录与实际使用的综合评价",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/"
+   ]
+  },
+  {
+   "anchor": "灵动云日本5 节点实测报告（站长实测）",
+   "target": "/speedtest/lingdongyun-2026-11-10-japan-node-report/",
+   "h1": "灵动云日本5 节点实测报告（2026-11-10）：下载 191 Mbps，上传 2.17 Mbps",
+   "area": "main-other",
+   "sources": [
+    "/lingdongyun/lingdongyun-client-guide/",
+    "/speedtest/node-regions-explained/",
+    "/reviews/lingdongyun-review-2026/"
+   ]
+  },
+  {
+   "anchor": "灵动云 60 个节点解锁检测记录（MiaoKo 截图）",
+   "target": "/speedtest/lingdongyun-2026-11-01-node-unlock-check/",
+   "h1": "灵动云 60 个节点解锁检测记录（2026-11-01，MiaoKo，珠海联通）",
+   "area": "main-other",
+   "sources": [
+    "/speedtest/node-regions-explained/",
+    "/reviews/lingdongyun-review-2026/"
+   ]
+  }
+ ]
+}
+
+## 泛化锚文本（精确匹配）
+## 泛化前缀锚文本（查看/进入/了解/点击/阅读/前往/返回/去）
+{"anchor":"查看完整披露","count":123,"distinctTargets":1,"targets":["/disclosure/"],"sourcePages":123,"areas":["site-footer"]}
+{"anchor":"查看品牌资料页","count":38,"distinctTargets":18,"targets":["/brands/flyv/","/brands/muguang-jiasu/","/brands/yinxingren/","/brands/weifeng-wangluo/","/brands/langwang/","/brands/feimaoyun/","/brands/dalaoyun/","/brands/wuyou/","/brands/firefly/","/brands/weituyun/","/brands/lingmao/","/brands/quanqiuyun/","/brands/kuajie/","/brands/shanyue/","/brands/sogoyun/","/brands/xingdaomeng/","/brands/guangsuyun/","/brands/u1s1/"],"sourcePages":3,"areas":["card@机场推荐","card@编辑精选品牌19 个","card"]}
+{"anchor":"查看套餐与优惠码","count":20,"distinctTargets":2,"targets":["/lingdongyun/","#plans"],"sourcePages":20,"areas":["main-other@灵动云LingDongYun","main-other"]}
+{"anchor":"查看品牌资料库","count":20,"distinctTargets":1,"targets":["/brands/"],"sourcePages":20,"areas":["main-other@套餐比较","main-other@套餐筛选表332 条"]}
+{"anchor":"查看相关教程","count":4,"distinctTargets":4,"targets":["/guides/dns-and-connection-troubleshooting/","/guides/clash-verge-rev-guide/","/guides/ios-client-setup/","/reviews/lingdongyun-review-2026/"],"sourcePages":1,"areas":["main-other@常见连接问题"]}
+{"anchor":"进入品牌专区","count":3,"distinctTargets":1,"targets":["/lingdongyun/"],"sourcePages":3,"areas":["card@机场推荐","card@编辑精选品牌19 个","card"]}
+{"anchor":"查看商业关系披露","count":2,"distinctTargets":1,"targets":["/disclosure/"],"sourcePages":2,"areas":["main-other@灵动云LingDongYun","main-other@官网与购买入口"]}
+{"anchor":"查看机场推荐","count":1,"distinctTargets":1,"targets":["/recommend/"],"sourcePages":1,"areas":["main-other@选对机场，让连接更简单。"]}
+{"anchor":"阅读新手教程","count":1,"distinctTargets":1,"targets":["/guides/"],"sourcePages":1,"areas":["main-other@选对机场，让连接更简单。"]}
+{"anchor":"查看全部 19 个品牌","count":1,"distinctTargets":1,"targets":["/brands/"],"sourcePages":1,"areas":["main-other@机场推荐"]}
+{"anchor":"进入灵动云专区","count":1,"distinctTargets":1,"targets":["/lingdongyun/"],"sourcePages":1,"areas":["main-other@灵动云LingDongYun"]}
+{"anchor":"进入套餐比较","count":1,"distinctTargets":1,"targets":["/compare/"],"sourcePages":1,"areas":["main-other@套餐比较"]}
+{"anchor":"进入节点实测","count":1,"distinctTargets":1,"targets":["/speedtest/"],"sourcePages":1,"areas":["main-other@节点知识与测速"]}
+{"anchor":"前往灵动云官网注册","count":1,"distinctTargets":1,"targets":["https://varnexa.lingdongaff.com/#/?code=HHoxxHGa"],"sourcePages":1,"areas":["main-other@官网与购买入口"]}
+{"anchor":"前往飞V官网注册","count":1,"distinctTargets":1,"targets":["https://varnexa.flyvaff.com/#/?code=1mq17Z8C"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往暮光加速官网注册","count":1,"distinctTargets":1,"targets":["https://varnexa.twilightaff.com/#/?code=rkRvrsRc"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往隐形人官网注册","count":1,"distinctTargets":1,"targets":["https://varnexa.invisibleaff.com/#/?code=PoecAA0c"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往微风网络官网注册","count":1,"distinctTargets":1,"targets":["https://downloadshare.breezenetttt.sbs/#/?code=eS6rgePR"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往浪网官网注册","count":1,"distinctTargets":1,"targets":["https://varnexa.wavenetaff.com/"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往飞猫云官网注册","count":1,"distinctTargets":1,"targets":["https://flycat1.flycatvipaff.cc/#/?code=Gja6RpJ8"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往大佬云官网注册","count":1,"distinctTargets":1,"targets":["https://a01vipaff.dalaoyunaff.com/#/?code=yN6HqG0d"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往无忧链接官网注册","count":1,"distinctTargets":1,"targets":["https://wep01.worryfreeaff.com/#/?code=HgKiCWFk"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往Firefly官网注册","count":1,"distinctTargets":1,"targets":["https://vip02.fireflyaff.com/#/?code=ChuJcdvd"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往唯兔云官网注册","count":1,"distinctTargets":1,"targets":["https://fast.v2yunvipaff.com/#/?code=sZt4VRYd"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往灵猫官网注册","count":1,"distinctTargets":1,"targets":["https://vip02.civetaff.com/#/?code=oL5LiBYi"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往全球云官网注册","count":1,"distinctTargets":1,"targets":["https://sswdh.gcvipaff.com/#/?code=po8R1Rnl"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往跨界官网注册","count":1,"distinctTargets":1,"targets":["https://vip02.kuajieaff.com/#/?code=tpRqrYXx"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往闪跃官网注册","count":1,"distinctTargets":1,"targets":["https://vip02.flashleapaff.com/#/?code=mS7mSSyk"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往Sogo云官网注册","count":1,"distinctTargets":1,"targets":["https://wzjc.sogoyunaff.cc/#/?code=EJx2Kerr"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往星岛梦官网注册","count":1,"distinctTargets":1,"targets":["https://kfccbb.xingdaomeng.com/#/?code=8OfXD5OF"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往光速云官网注册","count":1,"distinctTargets":1,"targets":["https://mdlky.gsyaff.com/#/?code=F7n0RNQb"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+{"anchor":"前往有一说一官网注册","count":1,"distinctTargets":1,"targets":["https://pkdj7.vipaff.cc/#/?code=fRPgEjR9"],"sourcePages":1,"areas":["main-other@购买流程（资料原文整理）"]}
+## 同一锚文本指向多个目标
+{"anchor":"官网注册","distinctTargets":19,"count":33,"sourcePages":33,"targets":["https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","https://varnexa.flyvaff.com/#/?code=1mq17Z8C","https://varnexa.twilightaff.com/#/?code=rkRvrsRc","https://varnexa.invisibleaff.com/#/?code=PoecAA0c","https://downloadshare.breezenetttt.sbs/#/?code=eS6rgePR","https://varnexa.wavenetaff.com/","https://flycat1.flycatvipaff.cc/#/?code=Gja6RpJ8","https://a01vipaff.dalaoyunaff.com/#/?code=yN6HqG0d","https://wep01.worryfreeaff.com/#/?code=HgKiCWFk","https://vip02.fireflyaff.com/#/?code=ChuJcdvd","https://fast.v2yunvipaff.com/#/?code=sZt4VRYd","https://vip02.civetaff.com/#/?code=oL5LiBYi","https://sswdh.gcvipaff.com/#/?code=po8R1Rnl","https://vip02.kuajieaff.com/#/?code=tpRqrYXx","https://vip02.flashleapaff.com/#/?code=mS7mSSyk","https://wzjc.sogoyunaff.cc/#/?code=EJx2Kerr","https://kfccbb.xingdaomeng.com/#/?code=8OfXD5OF","https://mdlky.gsyaff.com/#/?code=F7n0RNQb","https://pkdj7.vipaff.cc/#/?code=fRPgEjR9"]}
+{"anchor":"查看品牌资料页","distinctTargets":18,"count":38,"sourcePages":3,"targets":["/brands/flyv/","/brands/muguang-jiasu/","/brands/yinxingren/","/brands/weifeng-wangluo/","/brands/langwang/","/brands/feimaoyun/","/brands/dalaoyun/","/brands/wuyou/","/brands/firefly/","/brands/weituyun/","/brands/lingmao/","/brands/quanqiuyun/","/brands/kuajie/","/brands/shanyue/","/brands/sogoyun/","/brands/xingdaomeng/","/brands/guangsuyun/","/brands/u1s1/"]}
+{"anchor":"在套餐比较表里与其他品牌对比","distinctTargets":18,"count":18,"sourcePages":18,"targets":["/compare/?brand=flyv","/compare/?brand=muguang-jiasu","/compare/?brand=yinxingren","/compare/?brand=weifeng-wangluo","/compare/?brand=langwang","/compare/?brand=feimaoyun","/compare/?brand=dalaoyun","/compare/?brand=wuyou","/compare/?brand=firefly","/compare/?brand=weituyun","/compare/?brand=lingmao","/compare/?brand=quanqiuyun","/compare/?brand=kuajie","/compare/?brand=shanyue","/compare/?brand=sogoyun","/compare/?brand=xingdaomeng","/compare/?brand=guangsuyun","/compare/?brand=u1s1"]}
+{"anchor":"查看相关教程","distinctTargets":4,"count":4,"sourcePages":1,"targets":["/guides/dns-and-connection-troubleshooting/","/guides/clash-verge-rev-guide/","/guides/ios-client-setup/","/reviews/lingdongyun-review-2026/"]}
+
+## 异常 href
+## 片段链接问题
+{"anchor":"查看套餐与优惠码","count":20,"distinctTargets":2,"targets":["/lingdongyun/#plans (id×2)","#plans (id×2)"],"sourcePages":20,"areas":["main-other"]}
+{"anchor":"套餐与价格","count":18,"distinctTargets":1,"targets":["#plans (id×2)"],"sourcePages":18,"areas":["toc"]}
+{"anchor":"套餐信息","count":1,"distinctTargets":1,"targets":["#plans (id×2)"],"sourcePages":1,"areas":["toc"]}
+
+## 每页指向首页的链接
+{"page":"/","count":3,"areas":{"site-header:机场选 首页":1,"site-header:首页":2}}
+{"page":"/recommend/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/reviews/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/speedtest/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/lingdongyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/about/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/search/","count":3,"areas":{"site-header:机场选 首页":1,"site-header:首页":2}}
+{"page":"/articles/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/recommend/how-to-choose-an-airport-2026/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/clash-verge-rev-guide/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/speedtest/lingdongyun-2026-11-10-japan-node-report/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/flyv/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/muguang-jiasu/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/lingdongyun/lingdongyun-client-guide/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/disclosure/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/yinxingren/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/weifeng-wangluo/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/langwang/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/feimaoyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/dalaoyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/wuyou/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/firefly/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/weituyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/lingmao/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/quanqiuyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/kuajie/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/shanyue/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/sogoyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/xingdaomeng/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/guangsuyun/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/brands/u1s1/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/speedtest/lingdongyun-2026-11-01-node-unlock-check/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/speedtest/node-regions-explained/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/how-to-read-airport-plans/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/reviews/lingdongyun-review-2026/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/lingdongyun/lingdongyun-introduction/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/lingdongyun/lingdongyun-plans-and-policies/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/windows-client-setup/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/android-client-setup/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/ios-client-setup/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/tun-vs-system-proxy/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/guides/dns-and-connection-troubleshooting/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/methodology/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/contact/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/privacy/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/lingdongyun-plans-compared/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/articles/page/2/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%96%B0%E6%89%8B/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E7%BA%BF%E8%B7%AF/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%A5%97%E9%A4%90/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Clash%20Verge%20Rev/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Clash/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Mihomo/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%AE%A2%E9%98%85/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%AE%9E%E6%B5%8B/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%97%A5%E6%9C%AC/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/IPCheck/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%BB%B6%E8%BF%9F/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/YouTube/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=flyv","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=muguang-jiasu","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%95%99%E7%A8%8B/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=yinxingren","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=weifeng-wangluo","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=langwang","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=feimaoyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=dalaoyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=wuyou","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=firefly","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=weituyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=lingmao","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=quanqiuyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=kuajie","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=shanyue","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=sogoyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=xingdaomeng","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=guangsuyun","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/compare/?brand=u1s1","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%A7%A3%E9%94%81/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/MiaoKo/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%B5%81%E5%AA%92%E4%BD%93/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/OpenAI/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%8A%82%E7%82%B9/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%9C%B0%E5%8C%BA/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E9%A6%99%E6%B8%AF/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E7%BE%8E%E5%9B%BD/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%B5%81%E9%87%8F/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%80%8D%E7%8E%87/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E4%BB%B7%E6%A0%BC/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%B5%8B%E8%AF%84/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E4%B8%93%E7%BA%BF/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/IEPL/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E4%BC%98%E6%83%A0%E7%A0%81/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E9%80%80%E6%AC%BE/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%AE%A2%E6%9C%8D/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Windows/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Android/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Clash%20Meta/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/iOS/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/iPhone/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/Shadowrocket/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/TUN/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E5%8E%9F%E7%90%86/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/DNS/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+{"page":"/tags/ld888/","count":4,"areas":{"site-header:机场选 首页":1,"site-header:首页":2,"breadcrumb:首页":1}}
+
+## 站内绝对地址
+[]
+## 不规范站内地址（3xx 或缺结尾斜杠）
+[]
+## 带查询参数的站内链接
+{"anchor":"在套餐比较表里与其他品牌对比","count":18,"distinctTargets":18,"targets":["/compare/?brand=flyv","/compare/?brand=muguang-jiasu","/compare/?brand=yinxingren","/compare/?brand=weifeng-wangluo","/compare/?brand=langwang","/compare/?brand=feimaoyun","/compare/?brand=dalaoyun","/compare/?brand=wuyou","/compare/?brand=firefly","/compare/?brand=weituyun","/compare/?brand=lingmao","/compare/?brand=quanqiuyun","/compare/?brand=kuajie","/compare/?brand=shanyue","/compare/?brand=sogoyun","/compare/?brand=xingdaomeng","/compare/?brand=guangsuyun","/compare/?brand=u1s1"],"sourcePages":18,"areas":["main-other@套餐与价格9 条","main-other@套餐与价格21 条","main-other@套餐与价格16 条","main-other@套餐与价格19 条","main-other@套餐与价格11 条","main-other@套餐与价格15 条","main-other@套餐与价格14 条","main-other@套餐与价格25 条","main-other@套餐与价格8 条","main-other@套餐与价格10 条","main-other@套餐与价格13 条","main-other@套餐与价格18 条"]}
+## 指向 noindex / robots 屏蔽页的链接
+{"anchor":"搜索站内文章","count":123,"distinctTargets":1,"targets":["/search/"],"sourcePages":123,"areas":["site-header"]}
+{"anchor":"搜索","count":123,"distinctTargets":1,"targets":["/search/"],"sourcePages":123,"areas":["site-header"]}
+{"anchor":"标签","count":54,"distinctTargets":1,"targets":["/tags/"],"sourcePages":54,"areas":["breadcrumb"]}
+{"anchor":"#灵动云","count":7,"distinctTargets":1,"targets":["/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/"],"sourcePages":7,"areas":["main-other"]}
+{"anchor":"#套餐","count":5,"distinctTargets":1,"targets":["/tags/%E5%A5%97%E9%A4%90/"],"sourcePages":5,"areas":["main-other"]}
+{"anchor":"#订阅","count":5,"distinctTargets":1,"targets":["/tags/%E8%AE%A2%E9%98%85/"],"sourcePages":5,"areas":["main-other"]}
+{"anchor":"#新手","count":4,"distinctTargets":1,"targets":["/tags/%E6%96%B0%E6%89%8B/"],"sourcePages":4,"areas":["main-other"]}
+{"anchor":"#客户端","count":4,"distinctTargets":1,"targets":["/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/"],"sourcePages":4,"areas":["main-other"]}
+{"anchor":"#Clash Verge Rev","count":3,"distinctTargets":1,"targets":["/tags/Clash%20Verge%20Rev/"],"sourcePages":3,"areas":["main-other"]}
+{"anchor":"按标签浏览","count":2,"distinctTargets":1,"targets":["/tags/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#Clash","count":2,"distinctTargets":1,"targets":["/tags/Clash/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#实测","count":2,"distinctTargets":1,"targets":["/tags/%E5%AE%9E%E6%B5%8B/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#日本","count":2,"distinctTargets":1,"targets":["/tags/%E6%97%A5%E6%9C%AC/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#延迟","count":2,"distinctTargets":1,"targets":["/tags/%E5%BB%B6%E8%BF%9F/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#价格","count":2,"distinctTargets":1,"targets":["/tags/%E4%BB%B7%E6%A0%BC/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#专线","count":2,"distinctTargets":1,"targets":["/tags/%E4%B8%93%E7%BA%BF/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#优惠码","count":2,"distinctTargets":1,"targets":["/tags/%E4%BC%98%E6%83%A0%E7%A0%81/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#系统代理","count":2,"distinctTargets":1,"targets":["/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#故障排查","count":2,"distinctTargets":1,"targets":["/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/"],"sourcePages":2,"areas":["main-other"]}
+{"anchor":"#机场选择","count":1,"distinctTargets":1,"targets":["/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#选购指南","count":1,"distinctTargets":1,"targets":["/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#线路","count":1,"distinctTargets":1,"targets":["/tags/%E7%BA%BF%E8%B7%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Mihomo","count":1,"distinctTargets":1,"targets":["/tags/Mihomo/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#规则模式","count":1,"distinctTargets":1,"targets":["/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#IPCheck","count":1,"distinctTargets":1,"targets":["/tags/IPCheck/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#YouTube","count":1,"distinctTargets":1,"targets":["/tags/YouTube/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#教程","count":1,"distinctTargets":1,"targets":["/tags/%E6%95%99%E7%A8%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点切换","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#解锁","count":1,"distinctTargets":1,"targets":["/tags/%E8%A7%A3%E9%94%81/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#MiaoKo","count":1,"distinctTargets":1,"targets":["/tags/MiaoKo/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点检测","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流媒体","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#OpenAI","count":1,"distinctTargets":1,"targets":["/tags/OpenAI/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#地区","count":1,"distinctTargets":1,"targets":["/tags/%E5%9C%B0%E5%8C%BA/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#香港","count":1,"distinctTargets":1,"targets":["/tags/%E9%A6%99%E6%B8%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#新加坡","count":1,"distinctTargets":1,"targets":["/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#美国","count":1,"distinctTargets":1,"targets":["/tags/%E7%BE%8E%E5%9B%BD/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流量","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E9%87%8F/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#倍率","count":1,"distinctTargets":1,"targets":["/tags/%E5%80%8D%E7%8E%87/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#测评","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%8B%E8%AF%84/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#品牌介绍","count":1,"distinctTargets":1,"targets":["/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#IEPL","count":1,"distinctTargets":1,"targets":["/tags/IEPL/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#官方客户端","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#退款","count":1,"distinctTargets":1,"targets":["/tags/%E9%80%80%E6%AC%BE/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#客服","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%A2%E6%9C%8D/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流量规则","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Windows","count":1,"distinctTargets":1,"targets":["/tags/Windows/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Android","count":1,"distinctTargets":1,"targets":["/tags/Android/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Clash Meta","count":1,"distinctTargets":1,"targets":["/tags/Clash%20Meta/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#iOS","count":1,"distinctTargets":1,"targets":["/tags/iOS/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#iPhone","count":1,"distinctTargets":1,"targets":["/tags/iPhone/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Shadowrocket","count":1,"distinctTargets":1,"targets":["/tags/Shadowrocket/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#TUN","count":1,"distinctTargets":1,"targets":["/tags/TUN/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#原理","count":1,"distinctTargets":1,"targets":["/tags/%E5%8E%9F%E7%90%86/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#DNS","count":1,"distinctTargets":1,"targets":["/tags/DNS/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#连接问题","count":1,"distinctTargets":1,"targets":["/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#ld888","count":1,"distinctTargets":1,"targets":["/tags/ld888/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#灵动云7","count":1,"distinctTargets":1,"targets":["/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#订阅5","count":1,"distinctTargets":1,"targets":["/tags/%E8%AE%A2%E9%98%85/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#套餐5","count":1,"distinctTargets":1,"targets":["/tags/%E5%A5%97%E9%A4%90/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#客户端4","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#新手4","count":1,"distinctTargets":1,"targets":["/tags/%E6%96%B0%E6%89%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Clash Verge Rev3","count":1,"distinctTargets":1,"targets":["/tags/Clash%20Verge%20Rev/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#故障排查2","count":1,"distinctTargets":1,"targets":["/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#价格2","count":1,"distinctTargets":1,"targets":["/tags/%E4%BB%B7%E6%A0%BC/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#日本2","count":1,"distinctTargets":1,"targets":["/tags/%E6%97%A5%E6%9C%AC/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#实测2","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%9E%E6%B5%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#系统代理2","count":1,"distinctTargets":1,"targets":["/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#延迟2","count":1,"distinctTargets":1,"targets":["/tags/%E5%BB%B6%E8%BF%9F/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#优惠码2","count":1,"distinctTargets":1,"targets":["/tags/%E4%BC%98%E6%83%A0%E7%A0%81/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#专线2","count":1,"distinctTargets":1,"targets":["/tags/%E4%B8%93%E7%BA%BF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Clash2","count":1,"distinctTargets":1,"targets":["/tags/Clash/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#倍率1","count":1,"distinctTargets":1,"targets":["/tags/%E5%80%8D%E7%8E%87/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#测评1","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%8B%E8%AF%84/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#地区1","count":1,"distinctTargets":1,"targets":["/tags/%E5%9C%B0%E5%8C%BA/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#官方客户端1","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#规则模式1","count":1,"distinctTargets":1,"targets":["/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#机场选择1","count":1,"distinctTargets":1,"targets":["/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#教程1","count":1,"distinctTargets":1,"targets":["/tags/%E6%95%99%E7%A8%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点1","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点检测1","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#节点切换1","count":1,"distinctTargets":1,"targets":["/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#解锁1","count":1,"distinctTargets":1,"targets":["/tags/%E8%A7%A3%E9%94%81/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#客服1","count":1,"distinctTargets":1,"targets":["/tags/%E5%AE%A2%E6%9C%8D/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#连接问题1","count":1,"distinctTargets":1,"targets":["/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流量1","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E9%87%8F/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流量规则1","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#流媒体1","count":1,"distinctTargets":1,"targets":["/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#美国1","count":1,"distinctTargets":1,"targets":["/tags/%E7%BE%8E%E5%9B%BD/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#品牌介绍1","count":1,"distinctTargets":1,"targets":["/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#退款1","count":1,"distinctTargets":1,"targets":["/tags/%E9%80%80%E6%AC%BE/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#线路1","count":1,"distinctTargets":1,"targets":["/tags/%E7%BA%BF%E8%B7%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#香港1","count":1,"distinctTargets":1,"targets":["/tags/%E9%A6%99%E6%B8%AF/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#新加坡1","count":1,"distinctTargets":1,"targets":["/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#选购指南1","count":1,"distinctTargets":1,"targets":["/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#原理1","count":1,"distinctTargets":1,"targets":["/tags/%E5%8E%9F%E7%90%86/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Android1","count":1,"distinctTargets":1,"targets":["/tags/Android/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Clash Meta1","count":1,"distinctTargets":1,"targets":["/tags/Clash%20Meta/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#DNS1","count":1,"distinctTargets":1,"targets":["/tags/DNS/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#IEPL1","count":1,"distinctTargets":1,"targets":["/tags/IEPL/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#iOS1","count":1,"distinctTargets":1,"targets":["/tags/iOS/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#IPCheck1","count":1,"distinctTargets":1,"targets":["/tags/IPCheck/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#iPhone1","count":1,"distinctTargets":1,"targets":["/tags/iPhone/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#ld8881","count":1,"distinctTargets":1,"targets":["/tags/ld888/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#MiaoKo1","count":1,"distinctTargets":1,"targets":["/tags/MiaoKo/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Mihomo1","count":1,"distinctTargets":1,"targets":["/tags/Mihomo/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#OpenAI1","count":1,"distinctTargets":1,"targets":["/tags/OpenAI/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Shadowrocket1","count":1,"distinctTargets":1,"targets":["/tags/Shadowrocket/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#TUN1","count":1,"distinctTargets":1,"targets":["/tags/TUN/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#Windows1","count":1,"distinctTargets":1,"targets":["/tags/Windows/"],"sourcePages":1,"areas":["main-other"]}
+{"anchor":"#YouTube1","count":1,"distinctTargets":1,"targets":["/tags/YouTube/"],"sourcePages":1,"areas":["main-other"]}
+
+## 外链
+{"url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","host":"varnexa.lingdongaff.com","brandsForHost":["lingdongyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往灵动云官网注册"],"sourcePages":15,"sampleSources":["/","/lingdongyun/","/recommend/how-to-choose-an-airport-2026/","/guides/clash-verge-rev-guide/","/speedtest/lingdongyun-2026-11-10-japan-node-report/","/lingdongyun/lingdongyun-client-guide/"],"instances":16,"areas":["main-other","prose"]}
+{"url":"https://varnexa.flyvaff.com/#/?code=1mq17Z8C","host":"varnexa.flyvaff.com","brandsForHost":["flyv"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往飞V官网注册"],"sourcePages":1,"sampleSources":["/brands/flyv/"],"instances":2,"areas":["main-other"]}
+{"url":"https://varnexa.twilightaff.com/#/?code=rkRvrsRc","host":"varnexa.twilightaff.com","brandsForHost":["muguang-jiasu"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往暮光加速官网注册"],"sourcePages":1,"sampleSources":["/brands/muguang-jiasu/"],"instances":2,"areas":["main-other"]}
+{"url":"https://varnexa.invisibleaff.com/#/?code=PoecAA0c","host":"varnexa.invisibleaff.com","brandsForHost":["yinxingren"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往隐形人官网注册"],"sourcePages":1,"sampleSources":["/brands/yinxingren/"],"instances":2,"areas":["main-other"]}
+{"url":"https://downloadshare.breezenetttt.sbs/#/?code=eS6rgePR","host":"downloadshare.breezenetttt.sbs","brandsForHost":["weifeng-wangluo"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往微风网络官网注册"],"sourcePages":1,"sampleSources":["/brands/weifeng-wangluo/"],"instances":2,"areas":["main-other"]}
+{"url":"https://varnexa.wavenetaff.com/","host":"varnexa.wavenetaff.com","brandsForHost":["langwang"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往浪网官网注册"],"sourcePages":1,"sampleSources":["/brands/langwang/"],"instances":2,"areas":["main-other"]}
+{"url":"https://flycat1.flycatvipaff.cc/#/?code=Gja6RpJ8","host":"flycat1.flycatvipaff.cc","brandsForHost":["feimaoyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往飞猫云官网注册"],"sourcePages":1,"sampleSources":["/brands/feimaoyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://a01vipaff.dalaoyunaff.com/#/?code=yN6HqG0d","host":"a01vipaff.dalaoyunaff.com","brandsForHost":["dalaoyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往大佬云官网注册"],"sourcePages":1,"sampleSources":["/brands/dalaoyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://wep01.worryfreeaff.com/#/?code=HgKiCWFk","host":"wep01.worryfreeaff.com","brandsForHost":["wuyou"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往无忧链接官网注册"],"sourcePages":1,"sampleSources":["/brands/wuyou/"],"instances":2,"areas":["main-other"]}
+{"url":"https://vip02.fireflyaff.com/#/?code=ChuJcdvd","host":"vip02.fireflyaff.com","brandsForHost":["firefly"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往Firefly官网注册"],"sourcePages":1,"sampleSources":["/brands/firefly/"],"instances":2,"areas":["main-other"]}
+{"url":"https://fast.v2yunvipaff.com/#/?code=sZt4VRYd","host":"fast.v2yunvipaff.com","brandsForHost":["weituyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往唯兔云官网注册"],"sourcePages":1,"sampleSources":["/brands/weituyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://vip02.civetaff.com/#/?code=oL5LiBYi","host":"vip02.civetaff.com","brandsForHost":["lingmao"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往灵猫官网注册"],"sourcePages":1,"sampleSources":["/brands/lingmao/"],"instances":2,"areas":["main-other"]}
+{"url":"https://sswdh.gcvipaff.com/#/?code=po8R1Rnl","host":"sswdh.gcvipaff.com","brandsForHost":["quanqiuyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往全球云官网注册"],"sourcePages":1,"sampleSources":["/brands/quanqiuyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://vip02.kuajieaff.com/#/?code=tpRqrYXx","host":"vip02.kuajieaff.com","brandsForHost":["kuajie"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往跨界官网注册"],"sourcePages":1,"sampleSources":["/brands/kuajie/"],"instances":2,"areas":["main-other"]}
+{"url":"https://vip02.flashleapaff.com/#/?code=mS7mSSyk","host":"vip02.flashleapaff.com","brandsForHost":["shanyue"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往闪跃官网注册"],"sourcePages":1,"sampleSources":["/brands/shanyue/"],"instances":2,"areas":["main-other"]}
+{"url":"https://wzjc.sogoyunaff.cc/#/?code=EJx2Kerr","host":"wzjc.sogoyunaff.cc","brandsForHost":["sogoyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往Sogo云官网注册"],"sourcePages":1,"sampleSources":["/brands/sogoyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://kfccbb.xingdaomeng.com/#/?code=8OfXD5OF","host":"kfccbb.xingdaomeng.com","brandsForHost":["xingdaomeng"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往星岛梦官网注册"],"sourcePages":1,"sampleSources":["/brands/xingdaomeng/"],"instances":2,"areas":["main-other"]}
+{"url":"https://mdlky.gsyaff.com/#/?code=F7n0RNQb","host":"mdlky.gsyaff.com","brandsForHost":["guangsuyun"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往光速云官网注册"],"sourcePages":1,"sampleSources":["/brands/guangsuyun/"],"instances":2,"areas":["main-other"]}
+{"url":"https://pkdj7.vipaff.cc/#/?code=fRPgEjR9","host":"pkdj7.vipaff.cc","brandsForHost":["u1s1"],"isBrandHost":true,"rels":["sponsored nofollow noopener noreferrer"],"relAllHaveSponsored":true,"relAllHaveNofollow":true,"targets":["_blank"],"anchors":["官网注册","前往有一说一官网注册"],"sourcePages":1,"sampleSources":["/brands/u1s1/"],"instances":2,"areas":["main-other"]}
+## 推广外链缺 sponsored
+[]
+## 外链无 rel
+[]
+
+## 品牌页按钮核对
+{"page":"/lingdongyun/","brand":"lingdongyun","inDirective":true,"expectedHost":"varnexa.lingdongaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"varnexa.lingdongaff.com","url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["lingdongyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往灵动云官网注册","host":"varnexa.lingdongaff.com","url":"https://varnexa.lingdongaff.com/#/?code=HHoxxHGa","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["lingdongyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[]}
+{"page":"/brands/flyv/","brand":"flyv","inDirective":true,"expectedHost":"varnexa.flyvaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"varnexa.flyvaff.com","url":"https://varnexa.flyvaff.com/#/?code=1mq17Z8C","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["flyv"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往飞V官网注册","host":"varnexa.flyvaff.com","url":"https://varnexa.flyvaff.com/#/?code=1mq17Z8C","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["flyv"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/muguang-jiasu/","brand":"muguang-jiasu","inDirective":true,"expectedHost":"varnexa.twilightaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"varnexa.twilightaff.com","url":"https://varnexa.twilightaff.com/#/?code=rkRvrsRc","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["muguang-jiasu"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往暮光加速官网注册","host":"varnexa.twilightaff.com","url":"https://varnexa.twilightaff.com/#/?code=rkRvrsRc","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["muguang-jiasu"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/yinxingren/","brand":"yinxingren","inDirective":true,"expectedHost":"varnexa.invisibleaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"varnexa.invisibleaff.com","url":"https://varnexa.invisibleaff.com/#/?code=PoecAA0c","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["yinxingren"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往隐形人官网注册","host":"varnexa.invisibleaff.com","url":"https://varnexa.invisibleaff.com/#/?code=PoecAA0c","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["yinxingren"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/weifeng-wangluo/","brand":"weifeng-wangluo","inDirective":true,"expectedHost":"downloadshare.breezenetttt.sbs","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"downloadshare.breezenetttt.sbs","url":"https://downloadshare.breezenetttt.sbs/#/?code=eS6rgePR","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["weifeng-wangluo"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往微风网络官网注册","host":"downloadshare.breezenetttt.sbs","url":"https://downloadshare.breezenetttt.sbs/#/?code=eS6rgePR","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["weifeng-wangluo"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/langwang/","brand":"langwang","inDirective":true,"expectedHost":"varnexa.wavenetaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"varnexa.wavenetaff.com","url":"https://varnexa.wavenetaff.com/","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["langwang"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往浪网官网注册","host":"varnexa.wavenetaff.com","url":"https://varnexa.wavenetaff.com/","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["langwang"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/feimaoyun/","brand":"feimaoyun","inDirective":true,"expectedHost":"flycat1.flycatvipaff.cc","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"flycat1.flycatvipaff.cc","url":"https://flycat1.flycatvipaff.cc/#/?code=Gja6RpJ8","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["feimaoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往飞猫云官网注册","host":"flycat1.flycatvipaff.cc","url":"https://flycat1.flycatvipaff.cc/#/?code=Gja6RpJ8","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["feimaoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/dalaoyun/","brand":"dalaoyun","inDirective":false,"expectedHost":"a01vipaff.dalaoyunaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"a01vipaff.dalaoyunaff.com","url":"https://a01vipaff.dalaoyunaff.com/#/?code=yN6HqG0d","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["dalaoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往大佬云官网注册","host":"a01vipaff.dalaoyunaff.com","url":"https://a01vipaff.dalaoyunaff.com/#/?code=yN6HqG0d","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["dalaoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/wuyou/","brand":"wuyou","inDirective":false,"expectedHost":"wep01.worryfreeaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"wep01.worryfreeaff.com","url":"https://wep01.worryfreeaff.com/#/?code=HgKiCWFk","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["wuyou"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往无忧链接官网注册","host":"wep01.worryfreeaff.com","url":"https://wep01.worryfreeaff.com/#/?code=HgKiCWFk","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["wuyou"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/firefly/","brand":"firefly","inDirective":false,"expectedHost":"vip02.fireflyaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"vip02.fireflyaff.com","url":"https://vip02.fireflyaff.com/#/?code=ChuJcdvd","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["firefly"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往Firefly官网注册","host":"vip02.fireflyaff.com","url":"https://vip02.fireflyaff.com/#/?code=ChuJcdvd","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["firefly"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/weituyun/","brand":"weituyun","inDirective":false,"expectedHost":"fast.v2yunvipaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"fast.v2yunvipaff.com","url":"https://fast.v2yunvipaff.com/#/?code=sZt4VRYd","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["weituyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往唯兔云官网注册","host":"fast.v2yunvipaff.com","url":"https://fast.v2yunvipaff.com/#/?code=sZt4VRYd","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["weituyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/lingmao/","brand":"lingmao","inDirective":false,"expectedHost":"vip02.civetaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"vip02.civetaff.com","url":"https://vip02.civetaff.com/#/?code=oL5LiBYi","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["lingmao"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往灵猫官网注册","host":"vip02.civetaff.com","url":"https://vip02.civetaff.com/#/?code=oL5LiBYi","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["lingmao"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/quanqiuyun/","brand":"quanqiuyun","inDirective":false,"expectedHost":"sswdh.gcvipaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"sswdh.gcvipaff.com","url":"https://sswdh.gcvipaff.com/#/?code=po8R1Rnl","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["quanqiuyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往全球云官网注册","host":"sswdh.gcvipaff.com","url":"https://sswdh.gcvipaff.com/#/?code=po8R1Rnl","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["quanqiuyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/kuajie/","brand":"kuajie","inDirective":false,"expectedHost":"vip02.kuajieaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"vip02.kuajieaff.com","url":"https://vip02.kuajieaff.com/#/?code=tpRqrYXx","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["kuajie"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往跨界官网注册","host":"vip02.kuajieaff.com","url":"https://vip02.kuajieaff.com/#/?code=tpRqrYXx","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["kuajie"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/shanyue/","brand":"shanyue","inDirective":false,"expectedHost":"vip02.flashleapaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"vip02.flashleapaff.com","url":"https://vip02.flashleapaff.com/#/?code=mS7mSSyk","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["shanyue"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往闪跃官网注册","host":"vip02.flashleapaff.com","url":"https://vip02.flashleapaff.com/#/?code=mS7mSSyk","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["shanyue"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/sogoyun/","brand":"sogoyun","inDirective":false,"expectedHost":"wzjc.sogoyunaff.cc","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"wzjc.sogoyunaff.cc","url":"https://wzjc.sogoyunaff.cc/#/?code=EJx2Kerr","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["sogoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往Sogo云官网注册","host":"wzjc.sogoyunaff.cc","url":"https://wzjc.sogoyunaff.cc/#/?code=EJx2Kerr","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["sogoyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/xingdaomeng/","brand":"xingdaomeng","inDirective":false,"expectedHost":"kfccbb.xingdaomeng.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"kfccbb.xingdaomeng.com","url":"https://kfccbb.xingdaomeng.com/#/?code=8OfXD5OF","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["xingdaomeng"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往星岛梦官网注册","host":"kfccbb.xingdaomeng.com","url":"https://kfccbb.xingdaomeng.com/#/?code=8OfXD5OF","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["xingdaomeng"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/guangsuyun/","brand":"guangsuyun","inDirective":false,"expectedHost":"mdlky.gsyaff.com","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"mdlky.gsyaff.com","url":"https://mdlky.gsyaff.com/#/?code=F7n0RNQb","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["guangsuyun"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往光速云官网注册","host":"mdlky.gsyaff.com","url":"https://mdlky.gsyaff.com/#/?code=F7n0RNQb","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["guangsuyun"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+{"page":"/brands/u1s1/","brand":"u1s1","inDirective":false,"expectedHost":"pkdj7.vipaff.cc","externalLinks":2,"buttons":[{"anchor":"官网注册","host":"pkdj7.vipaff.cc","url":"https://pkdj7.vipaff.cc/#/?code=fRPgEjR9","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["u1s1"],"matchesPageBrand":true,"pointsToOtherBrand":false},{"anchor":"前往有一说一官网注册","host":"pkdj7.vipaff.cc","url":"https://pkdj7.vipaff.cc/#/?code=fRPgEjR9","rel":"sponsored nofollow noopener noreferrer","target":"_blank","area":"main-other","isButton":true,"hostOwners":["u1s1"],"matchesPageBrand":true,"pointsToOtherBrand":false}],"mismatches":[],"otherBrandLinks":[],"sponsoredMissing":[],"internalLinksToOtherBrandPages":[{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-header"},{"anchor":"灵动云专区","target":"/lingdongyun/","area":"site-footer"}]}
+## 品牌上下文不一致
+[]
+
+## 每页链接数
+{"page":"/","links":154,"internal":152,"internalUniqueTargets":49,"external":1,"fragment":1,"mainInternal":115,"depth":0,"robotsMeta":"index, follow"}
+{"page":"/recommend/","links":80,"internal":79,"internalUniqueTargets":37,"external":0,"fragment":1,"mainInternal":42,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/reviews/","links":43,"internal":42,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":5,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/compare/","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/speedtest/","links":56,"internal":55,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":18,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/","links":57,"internal":56,"internalUniqueTargets":25,"external":0,"fragment":1,"mainInternal":19,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/lingdongyun/","links":73,"internal":60,"internalUniqueTargets":31,"external":2,"fragment":11,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/about/","links":49,"internal":48,"internalUniqueTargets":19,"external":0,"fragment":1,"mainInternal":11,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/search/","links":38,"internal":37,"internalUniqueTargets":19,"external":0,"fragment":1,"mainInternal":0,"depth":1,"robotsMeta":"noindex, nofollow"}
+{"page":"/articles/","links":67,"internal":66,"internalUniqueTargets":27,"external":0,"fragment":1,"mainInternal":29,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/recommend/how-to-choose-an-airport-2026/","links":84,"internal":58,"internalUniqueTargets":26,"external":1,"fragment":25,"mainInternal":21,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/clash-verge-rev-guide/","links":80,"internal":60,"internalUniqueTargets":29,"external":1,"fragment":19,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/speedtest/lingdongyun-2026-11-10-japan-node-report/","links":77,"internal":61,"internalUniqueTargets":28,"external":1,"fragment":15,"mainInternal":24,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/","links":79,"internal":78,"internalUniqueTargets":37,"external":0,"fragment":1,"mainInternal":41,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/flyv/","links":59,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":7,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/muguang-jiasu/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/lingdongyun/lingdongyun-client-guide/","links":80,"internal":60,"internalUniqueTargets":30,"external":1,"fragment":19,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/disclosure/","links":60,"internal":59,"internalUniqueTargets":37,"external":0,"fragment":1,"mainInternal":22,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/yinxingren/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/weifeng-wangluo/","links":59,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":7,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/langwang/","links":59,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":7,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/feimaoyun/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/dalaoyun/","links":59,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":7,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/wuyou/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/firefly/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/weituyun/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/lingmao/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/quanqiuyun/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/kuajie/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/shanyue/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/sogoyun/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/xingdaomeng/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/guangsuyun/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/brands/u1s1/","links":60,"internal":50,"internalUniqueTargets":21,"external":2,"fragment":8,"mainInternal":13,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/speedtest/lingdongyun-2026-11-01-node-unlock-check/","links":72,"internal":62,"internalUniqueTargets":28,"external":1,"fragment":9,"mainInternal":25,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/speedtest/node-regions-explained/","links":77,"internal":58,"internalUniqueTargets":28,"external":0,"fragment":19,"mainInternal":21,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/compare/how-to-read-airport-plans/","links":77,"internal":59,"internalUniqueTargets":27,"external":1,"fragment":17,"mainInternal":22,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/reviews/lingdongyun-review-2026/","links":81,"internal":61,"internalUniqueTargets":28,"external":1,"fragment":19,"mainInternal":24,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/lingdongyun/lingdongyun-introduction/","links":78,"internal":60,"internalUniqueTargets":28,"external":1,"fragment":17,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/lingdongyun/lingdongyun-plans-and-policies/","links":88,"internal":60,"internalUniqueTargets":28,"external":1,"fragment":27,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/windows-client-setup/","links":83,"internal":59,"internalUniqueTargets":28,"external":1,"fragment":23,"mainInternal":22,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/android-client-setup/","links":83,"internal":59,"internalUniqueTargets":29,"external":1,"fragment":23,"mainInternal":22,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/ios-client-setup/","links":78,"internal":60,"internalUniqueTargets":29,"external":1,"fragment":17,"mainInternal":23,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/tun-vs-system-proxy/","links":70,"internal":57,"internalUniqueTargets":29,"external":0,"fragment":13,"mainInternal":20,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/guides/dns-and-connection-troubleshooting/","links":80,"internal":57,"internalUniqueTargets":29,"external":0,"fragment":23,"mainInternal":20,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/methodology/","links":41,"internal":40,"internalUniqueTargets":19,"external":0,"fragment":1,"mainInternal":3,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/contact/","links":40,"internal":39,"internalUniqueTargets":19,"external":0,"fragment":1,"mainInternal":2,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/privacy/","links":41,"internal":40,"internalUniqueTargets":19,"external":0,"fragment":1,"mainInternal":3,"depth":1,"robotsMeta":"index, follow"}
+{"page":"/compare/lingdongyun-plans-compared/","links":77,"internal":59,"internalUniqueTargets":27,"external":1,"fragment":17,"mainInternal":22,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/tags/","links":93,"internal":92,"internalUniqueTargets":73,"external":0,"fragment":1,"mainInternal":55,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/articles/page/2/","links":64,"internal":63,"internalUniqueTargets":28,"external":0,"fragment":1,"mainInternal":26,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/tags/%E6%9C%BA%E5%9C%BA%E9%80%89%E6%8B%A9/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%96%B0%E6%89%8B/","links":48,"internal":47,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":10,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E7%BA%BF%E8%B7%AF/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%A5%97%E9%A4%90/","links":50,"internal":49,"internalUniqueTargets":23,"external":0,"fragment":1,"mainInternal":12,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Clash%20Verge%20Rev/","links":46,"internal":45,"internalUniqueTargets":23,"external":0,"fragment":1,"mainInternal":8,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Clash/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Mihomo/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%AE%A2%E9%98%85/","links":50,"internal":49,"internalUniqueTargets":25,"external":0,"fragment":1,"mainInternal":12,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%A7%84%E5%88%99%E6%A8%A1%E5%BC%8F/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E7%81%B5%E5%8A%A8%E4%BA%91/","links":54,"internal":53,"internalUniqueTargets":27,"external":0,"fragment":1,"mainInternal":16,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%AE%9E%E6%B5%8B/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%97%A5%E6%9C%AC/","links":44,"internal":43,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/IPCheck/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%BB%B6%E8%BF%9F/","links":44,"internal":43,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/YouTube/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/compare/?brand=flyv","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=muguang-jiasu","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/","links":48,"internal":47,"internalUniqueTargets":24,"external":0,"fragment":1,"mainInternal":10,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%95%99%E7%A8%8B/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E5%88%87%E6%8D%A2/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/compare/?brand=yinxingren","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=weifeng-wangluo","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=langwang","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=feimaoyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=dalaoyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=wuyou","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=firefly","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=weituyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=lingmao","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=quanqiuyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=kuajie","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=shanyue","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=sogoyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=xingdaomeng","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=guangsuyun","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/compare/?brand=u1s1","links":99,"internal":98,"internalUniqueTargets":38,"external":0,"fragment":1,"mainInternal":61,"depth":2,"robotsMeta":"index, follow"}
+{"page":"/tags/%E8%A7%A3%E9%94%81/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/MiaoKo/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%8A%82%E7%82%B9%E6%A3%80%E6%B5%8B/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%B5%81%E5%AA%92%E4%BD%93/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/OpenAI/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%8A%82%E7%82%B9/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%9C%B0%E5%8C%BA/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E9%A6%99%E6%B8%AF/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E7%BE%8E%E5%9B%BD/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%B5%81%E9%87%8F/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%80%8D%E7%8E%87/","links":42,"internal":41,"internalUniqueTargets":20,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E4%BB%B7%E6%A0%BC/","links":44,"internal":43,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%B5%8B%E8%AF%84/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E4%B8%93%E7%BA%BF/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%93%81%E7%89%8C%E4%BB%8B%E7%BB%8D/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/IEPL/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%AE%98%E6%96%B9%E5%AE%A2%E6%88%B7%E7%AB%AF/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E4%BC%98%E6%83%A0%E7%A0%81/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E9%80%80%E6%AC%BE/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%AE%A2%E6%9C%8D/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%B5%81%E9%87%8F%E8%A7%84%E5%88%99/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Windows/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Android/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Clash%20Meta/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/iOS/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/iPhone/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/Shadowrocket/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/TUN/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E5%8E%9F%E7%90%86/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5/","links":44,"internal":43,"internalUniqueTargets":22,"external":0,"fragment":1,"mainInternal":6,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/DNS/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":2,"robotsMeta":"noindex, nofollow"}
+{"page":"/tags/ld888/","links":42,"internal":41,"internalUniqueTargets":21,"external":0,"fragment":1,"mainInternal":4,"depth":3,"robotsMeta":"noindex, nofollow"}

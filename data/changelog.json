@@ -1,0 +1,185 @@
+[
+  {
+    "date": "2026-11-25",
+    "title": "机场测评专区扩充为 12 篇",
+    "items": [
+      "新增 11 篇品牌测评：暮光加速、微风网络、飞猫云、大佬云、隐形人、FLYV 飞V、浪网、梯子云、无忧链接、Firefly、全球云。这些都是资料分析型测评，本站没有它们的测试记录，文中不写测速、延迟、丢包或解锁成功率，不打分、不写用户评价；价格为 2026-11-25 站长核对的价格。",
+      "灵动云测评保留原有 URL 与三份测试记录，换用独立封面并补充相关测评链接。",
+      "测评专区按站长指定顺序展示 12 篇，可按套餐分析、节点线路、AI应用、流媒体、性价比筛选；每家使用独立的测评封面。",
+      "首页价格表、按需选机场、套餐比较表与对比文章表格中的品牌名改为链接到对应测评；品牌资料页与购买按钮保持不变。"
+    ],
+    "paths": [
+      "/reviews/",
+      "/reviews/lingdongyun-review-2026/",
+      "/reviews/muguang-jiasu-review-2026/",
+      "/reviews/weifeng-wangluo-review-2026/",
+      "/reviews/feimaoyun-review-2026/",
+      "/reviews/dalaoyun-review-2026/",
+      "/reviews/yinxingren-review-2026/",
+      "/reviews/flyv-review/",
+      "/reviews/langwang-review-2026/",
+      "/reviews/tiziyun-review-2026/",
+      "/reviews/wuyou-review-2026/",
+      "/reviews/firefly-review-2026/",
+      "/reviews/quanqiuyun-review-2026/",
+      "/",
+      "/recommend/",
+      "/compare/"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "20 个品牌价格经站长核对",
+    "items": [
+      "站长于 2026-11-25 在各品牌官网或用户后台逐一核对了本站全部 20 个品牌的套餐价格，与页面显示一致，包括此前标为“与折扣比例不符，待核实”的微风网络御风年付 ¥998 与飞猫云宇宙版年付 ¥1360。价格可能变动，购买前以官网结算页为准。",
+      "价格状态标签由“资料已核对”改为“价格已核对”，核对日期为 2026-11-25；灵动云此前 2026-11-09 与资料原文的核对记录保留。",
+      "这次核对只针对价格，不是测速或解锁测试。节点、地区、设备数、客户端政策、退款、试用等非价格信息，以及优惠码的适用范围与有效期，仍按原有标注显示“待核实”或“资料未写明”。",
+      "按需选机场的 AI 工具栏只列可使用的 AI 工具（站长要求）。"
+    ],
+    "paths": [
+      "/",
+      "/brands/",
+      "/compare/",
+      "/recommend/",
+      "/methodology/",
+      "/disclosure/",
+      "/about/",
+      "/lingdongyun/",
+      "/brands/muguang-jiasu/",
+      "/brands/weifeng-wangluo/",
+      "/brands/feimaoyun/",
+      "/brands/dalaoyun/",
+      "/brands/flyv/",
+      "/brands/langwang/",
+      "/brands/yinxingren/",
+      "/brands/tiziyun/",
+      "/brands/wuyou/",
+      "/brands/firefly/",
+      "/brands/quanqiuyun/",
+      "/brands/weituyun/",
+      "/brands/lingmao/",
+      "/brands/kuajie/",
+      "/brands/shanyue/",
+      "/brands/sogoyun/",
+      "/brands/xingdaomeng/",
+      "/brands/guangsuyun/",
+      "/brands/u1s1/"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "首页推荐榜调整为 12 家，新增梯子云",
+    "items": [
+      "首页“2026 热门机场推荐排行榜”由七家调整为 12 家，顺序为：灵动云、暮光加速、微风网络、飞猫云、大佬云、FLYV 飞V、浪网 WaveNet、隐形人、梯子云、无忧链接、Firefly、全球云。这是编辑推荐顺序，包含推广合作因素，不是测速或评分排名。",
+      "新增品牌梯子云（LadderCloud）资料页：资料日期 2026-11-23，价格为原稿参考价；资料自述部分信息来自公开网页与第三方后台快照，本站没有测试记录。",
+      "大佬云、梯子云、无忧链接、Firefly、全球云新增编辑正文与常见问题。",
+      "首页标题、描述、价格比较表与按需选择，以及按需选机场、品牌资料库、商业关系披露、测评方法等页面按 12 家更新；低价对比、流量倍率、Clash 订阅、多设备、AI 工具节点、IEPL 与 IPLC、晚高峰、YouTube 4K 八篇原来只比较七家的文章扩为 12 家：表格新增大佬云、梯子云、无忧链接、Firefly、全球云，区间与计数按 12 家重算，全站指向它们的链接文字同步改为“12 家”。",
+      "几处把品牌资料附带的 2026-10-28 文字记录算进“本站测试记录”的说法已改正（多设备、晚高峰、AI 工具节点、流量倍率、IEPL 与 IPLC、YouTube 4K 文章）。",
+      "无忧链接、全球云的优惠码适用范围按原稿改正：原稿只写了不适用的套餐，其余套餐是否适用标为资料未写。",
+      "按站长提供的新链接更换各品牌的推广链接。"
+    ],
+    "paths": [
+      "/",
+      "/brands/",
+      "/brands/tiziyun/",
+      "/brands/dalaoyun/",
+      "/brands/wuyou/",
+      "/brands/firefly/",
+      "/brands/quanqiuyun/",
+      "/brands/flyv/",
+      "/brands/langwang/",
+      "/brands/yinxingren/",
+      "/recommend/",
+      "/disclosure/",
+      "/methodology/",
+      "/about/",
+      "/contact/",
+      "/compare/budget-airport-plans-2026/",
+      "/compare/how-to-read-airport-plans/",
+      "/compare/traffic-multiplier-explained/",
+      "/guides/clash-meta-compatible-airports/",
+      "/guides/multi-device-setup/",
+      "/guides/youtube-4k-netflix-network-guide/",
+      "/speedtest/ai-tools-node-guide/",
+      "/speedtest/iepl-vs-iplc/",
+      "/speedtest/peak-hour-stability-guide/",
+      "/recommend/how-to-choose-an-airport-2026/"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "更正测试记录的归属与说明",
+    "items": [
+      "《机场晚高峰变慢怎么办》：灵动云的“本站测试记录”改为两份（2026-11-01 检测、2026-11-10 实测，都不在晚高峰）；2026-10-28 的晚间文字记录来自品牌资料，不是本站测试。",
+      "《2026 机场怎么选》、测评方法页与关于页：测试记录的说明统一为“注明日期与出口节点，本地网络环境与工具写到资料能提供的程度”，不再写成每份都有网络环境说明。",
+      "隐私说明页显示本页更新日期；手机上价格表的日期不再断行。"
+    ],
+    "paths": [
+      "/speedtest/peak-hour-stability-guide/",
+      "/recommend/how-to-choose-an-airport-2026/",
+      "/methodology/",
+      "/about/",
+      "/privacy/"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "title": "新增四篇专题文章，核对品牌页与文章事实",
+    "items": [
+      "新增专题文章：IEPL 与 IPLC 有什么区别、机场晚高峰变慢怎么办、预算有限怎么选（七家机场低价套餐价格对比）、机场流量倍率是什么。",
+      "七个品牌页正文逐项核对资料与计算后修订，并改写各页之间句式重复的段落。",
+      "现有 16 篇文章补充正文内链，合并重复的常见问题小节；修正灵动云测评对三份测试记录的概括，以及节点地区文章里的 AI 工具建议。",
+      "更正灵动云 2026-11-01 节点检测记录的一处转录错误：美国04 的 TikTok 地区标签是 US（原写 JP）。",
+      "复核文章引用的 YouTube、Netflix、OpenAI、Anthropic、Gemini 官方页面，内容与文章一致。",
+      "品牌资料补记几处资料内部的矛盾，例如微风网络御风年付、飞猫云宇宙版年付与折扣比例不符，待站长向品牌核实。",
+      "统一测试记录的说明：每份记录注明日期与出口节点，网络环境、工具与方法写到资料能提供的程度，缺的项标“未注明”（此前部分页面写成“每份都注明网络环境与工具”）。",
+      "页面细节修正：深色区域的键盘焦点框、常见问题收起后不再被读屏读出、手机上价格单位不再断行。"
+    ],
+    "paths": [
+      "/speedtest/iepl-vs-iplc/",
+      "/speedtest/peak-hour-stability-guide/",
+      "/compare/budget-airport-plans-2026/",
+      "/compare/traffic-multiplier-explained/",
+      "/brands/",
+      "/lingdongyun/",
+      "/speedtest/",
+      "/reviews/",
+      "/about/",
+      "/speedtest/lingdongyun-2026-11-01-node-unlock-check/"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "title": "站名更新、首页改版与全站内容整理",
+    "items": [
+      "新增专题文章：哪些机场支持 Clash Meta 订阅、多设备共用机场、AI 工具选哪个节点、YouTube 4K 与 Netflix 需要多少网速和流量。",
+      "站名确定为“机场优选”，英文名 JichangXuan 与网址不变。",
+      "首页改为“2026 机场推荐排行榜”：新增七家编辑推荐顺序（含推广合作因素，不是测速或评分排名）、七家套餐价格比较与按需求选择的说明。",
+      "灵动云、暮光加速、微风网络、飞猫云、FLYV 飞V、浪网、隐形人七个品牌页新增编辑正文、常见问题与发布 / 更新日期，资料来源改为读者能看懂的说明。",
+      "测评方法页新增“推荐榜排序原则”，商业关系披露页说明上榜品牌的推广关系，新增本更新记录页。",
+      "“机场推荐”栏目改为“按需选机场”，按 AI 工具、流媒体、多设备、预算等需求整理品牌资料对照。",
+      "文章末尾的常见问题改为在页面上直接显示，与结构化数据保持一致。"
+    ],
+    "paths": ["/", "/brands/", "/recommend/", "/methodology/", "/disclosure/", "/updates/"]
+  },
+  {
+    "date": "2026-11-13",
+    "title": "新增品牌资料库与套餐比较数据",
+    "items": [
+      "新增 18 个品牌资料页与套餐比较表；除灵动云外，价格为站长提供的原稿参考价，未在品牌后台核实。",
+      "根据站长补充资料更新浪网、隐形人、闪跃、光速云的英文名、节点、客户端、优惠码与付款信息；品牌“无忧”更名为“无忧链接”。",
+      "补充 12 个品牌的付款方式（支付宝、微信、USDT）与退款渠道（联系客服申请）。",
+      "复核各品牌的分地区节点数，资料没有写的地区标注“待核实”。"
+    ],
+    "paths": ["/brands/", "/compare/"]
+  },
+  {
+    "date": "2026-11-12",
+    "title": "建立网站内容",
+    "items": [
+      "发布 16 篇文章：选购方法、灵动云专区与测评、套餐比较、灵动云节点测试记录与客户端教程。",
+      "建立测评方法、商业关系披露、关于、联系与隐私页面。"
+    ],
+    "paths": ["/"]
+  }
+]

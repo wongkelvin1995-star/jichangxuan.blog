@@ -1,0 +1,31 @@
+# 由 scripts/write-redirects.mjs 根据 data/redirects.json 生成，请勿手改
+
+/index.html  /  301
+/guide  /guides/  301
+/guide/  /guides/  301
+/tutorials  /guides/  301
+/tutorials/  /guides/  301
+/tutorial  /guides/  301
+/tutorial/  /guides/  301
+/posts  /articles/  301
+/posts/  /articles/  301
+/blog  /articles/  301
+/blog/  /articles/  301
+/review  /reviews/  301
+/review/  /reviews/  301
+/speed-tests  /speedtest/  301
+/speed-tests/  /speedtest/  301
+/speedtests  /speedtest/  301
+/speedtests/  /speedtest/  301
+/comparison  /compare/  301
+/comparison/  /compare/  301
+/recommendation  /recommend/  301
+/recommendation/  /recommend/  301
+/lingdong  /lingdongyun/  301
+/lingdong/  /lingdongyun/  301
+/ldy  /lingdongyun/  301
+/ldy/  /lingdongyun/  301
+/feed  /rss.xml  301
+/feed/  /rss.xml  301
+/rss  /rss.xml  301
+/rss/  /rss.xml  301

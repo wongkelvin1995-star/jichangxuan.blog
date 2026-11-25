@@ -1,0 +1,119 @@
+---
+title: "Clash Verge Rev 使用教程：导入订阅、规则模式与常见设置"
+slug: "clash-verge-rev-guide"
+description: "Clash Verge Rev 是基于 Mihomo 内核的开源客户端。本文讲清安装、导入与更新订阅、规则 / 全局 / 直连三种模式、系统代理与 TUN、延迟测试、常用设置与导入失败等常见问题。"
+category: "guides"
+tags: ["Clash Verge Rev", "Clash", "Mihomo", "订阅", "规则模式"]
+author: "editorial"
+publishedAt: "2026-11-12"
+updatedAt: "2026-11-24"
+cover: "/images/covers/guides.svg"
+coverAlt: "使用教程栏目封面：蓝色线条与抽象图形"
+draft: false
+featured: true
+featuredOrder: 2
+related: ["windows-client-setup", "clash-meta-compatible-airports", "tun-vs-system-proxy", "dns-and-connection-troubleshooting", "lingdongyun-client-guide"]
+summaryPoints:
+  - "Clash Verge Rev 是跨平台的开源图形客户端，内核为 Mihomo（原 Clash Meta），支持 VLESS、Trojan、Hysteria2 等当前主流协议。"
+  - "前提是机场提供 Clash 订阅：有的机场只给官方客户端，有的要向客服申请，先确认再装。"
+  - "日常使用只需要：导入订阅、开启系统代理、在代理组里选节点、保持规则模式。"
+  - "内置延迟测试测的是一次 HTTP 请求的响应时间，不是下载速度。"
+  - "导入失败、节点全超时、TUN 开了没网是最常见的三个问题，排查顺序见正文与文末常见问题。"
+brand: "lingdongyun"
+changes:
+  - date: "2026-11-24"
+    note: "正文“常见问题”并入文末常见问题（合并重复项）；补充“能否用 Clash 订阅取决于机场政策”的说明与订阅政策专题链接；文章引用改为站内链接，补充 Windows、Android、iOS、多设备共用、DNS 排查与灵动云客户端教程的链接；自动选择组的说明改为“切换到延迟最低的节点”。"
+faq:
+  - q: "Clash Verge Rev 和 Clash for Windows 是什么关系？"
+    a: "Clash for Windows 已停止维护，且旧版 Clash 内核不支持 VLESS、Hysteria 等新协议。Clash Verge Rev 是社区维护的替代品，使用 Mihomo 内核，配置格式兼容，可以直接导入同样的订阅。"
+  - q: "规则模式下某个网站没走代理怎么办？"
+    a: "在“连接”页面找到这条连接，看它匹配了哪条规则。多数订阅自带的规则集会把未知域名交给“漏网之鱼 / Final”代理组，把这个组的策略选成代理节点即可；个别域名可以在“规则”里手动添加。"
+  - q: "订阅自动更新会不会覆盖我改过的设置？"
+    a: "会覆盖配置文件本身，但 Clash Verge Rev 的“全局扩展脚本 / Merge”功能可以把你的自定义规则和设置叠加在订阅之上，更新后仍然生效。"
+  - q: "导入订阅后节点全部超时怎么办？"
+    a: "先看订阅是否过期、流量是否用完；再看“日志”页面，如果有 tls handshake 或 connection refused 之类的错误，通常是节点维护或本地网络封锁了对应端口，换个网络再试。"
+  - q: "开启 TUN 后反而没网怎么办？"
+    a: "确认系统服务已安装并运行（设置里有“服务模式”状态）；检查安全软件是否拦截了虚拟网卡；暂时关闭 TUN 看系统代理是否正常，分清是 TUN 的问题还是节点的问题。"
+  - q: "更新软件后配置丢失了怎么办？"
+    a: "重新导入订阅即可恢复节点。自定义规则和设置建议写在 Merge 文件里，并另外保存一份备份，丢失后直接恢复。"
+  - q: "能和其他代理软件同时运行吗？"
+    a: "不要同时运行。退出其他代理或 VPN 软件，只保留一个；两个软件会争抢系统代理或虚拟网卡，表现为时通时断或开了没网。"
+---
+
+Clash Verge Rev 是目前 Windows、macOS、Linux 上最常被推荐的图形客户端：开源、界面清楚、内核是持续维护的 Mihomo，机场提供的 Clash 订阅基本都能直接用。这篇教程按“先连上，再调细节”的顺序写。
+
+## 它是什么
+
+- **图形界面 + 内核**：你操作的是 Clash Verge Rev 这个界面，真正处理流量的是它内置的 Mihomo 内核（也叫 Clash Meta）。
+- **协议支持**：Shadowsocks、VMess、VLESS、Trojan、Hysteria2、TUIC 等，覆盖当前主流机场。
+- **配置来源**：机场的订阅链接（Clash 格式），或者你自己写的 YAML。
+- **获取方式**：项目的 GitHub Releases 页面。不要从搜索结果里的第三方下载站下载。
+
+能不能用它，取决于机场给不给 Clash 订阅。不少机场只提供官方客户端、不发订阅链接，也有的要向客服申请，购买前先问清楚；各家的订阅政策见[哪些机场支持 Clash Meta（Mihomo）订阅](/guides/clash-meta-compatible-airports/)。
+
+## 安装
+
+下载对应平台的安装包。Windows 选 x64 的安装版（setup），macOS 按芯片选 aarch64（Apple 芯片）或 x64（Intel）。安装时 Windows 可能弹 SmartScreen 提示，确认来源后“仍要运行”。
+
+安装完成第一次打开时，软件会询问是否安装系统服务。这个服务是 TUN 模式需要的；只用系统代理的话可以先跳过，之后随时能在设置里安装。
+
+Windows 上官方客户端与订阅链接两条路线的对比，见[Windows 客户端教程](/guides/windows-client-setup/)。手机上没有 Clash Verge Rev：Android 可以用同为 Mihomo 内核的 Clash Meta for Android，见[Android 客户端教程](/guides/android-client-setup/)；iPhone 见[iOS 客户端教程](/guides/ios-client-setup/)。
+
+## 界面一览
+
+左侧菜单从上到下：
+
+| 页面 | 用途 |
+| --- | --- |
+| 代理 | 选节点、切换模式、测延迟 |
+| 订阅 | 导入、更新、管理配置文件 |
+| 连接 | 查看当前每条连接走的节点和匹配的规则 |
+| 规则 | 查看当前生效的分流规则 |
+| 日志 | 排查问题时看内核输出 |
+| 设置 | 系统代理、TUN、端口、开机自启等 |
+
+## 导入订阅
+
+1. 进入“订阅”页面。
+2. 把机场给的订阅链接粘贴进顶部输入框，点“导入”。
+3. 出现配置卡片后点击它，使其处于选中状态。
+4. 卡片右键（或菜单）里有“更新”，建议设置“自动更新间隔”，例如 1440 分钟。
+
+**导入失败**时按这个顺序排查：链接是否完整（有时复制会漏掉末尾字符）；订阅地址是否需要先连代理才能访问（先用其他方式连一次，或联系机场客服）；订阅是否已过期。
+
+以[灵动云](/lingdongyun/)为例，资料显示订阅链接需要向客服询问，符合条件的套餐才会提供；拿到链接后导入方式和其他机场一致，申请流程见[灵动云客户端使用教程](/lingdongyun/lingdongyun-client-guide/)。
+
+## 三种模式怎么选
+
+“代理”页面顶部可以切换模式：
+
+- **规则（Rule）**：按规则分流，国内直连、海外走代理。日常使用一直保持这个模式。
+- **全局（Global）**：所有流量走选中的节点。只在排查“到底是规则没命中还是节点不通”时临时用。
+- **直连（Direct）**：全部直连，相当于关闭代理但保留客户端运行。
+
+## 选节点与延迟测试
+
+代理页面会显示订阅里的“代理组”，比如“节点选择”“自动选择”“流媒体”等，每个组里是节点列表。
+
+- 手动选：点组里的某个节点。
+- 自动选：很多订阅带“自动选择（url-test）”组，它会定期测延迟并切换到延迟最低的节点。
+- 延迟测试：点组右上角的闪电图标，对组内所有节点发一次 HTTP 请求。**这个数字是响应时间，不是下载速度**；超时的节点一定不可用，但延迟低的节点不一定快。
+
+## 系统代理与 TUN
+
+“设置”页面有两个开关：
+
+- **系统代理**：把 Windows / macOS 的代理设置指向客户端，浏览器等遵守系统代理的应用生效。
+- **TUN 模式**：创建虚拟网卡接管全部流量，所有应用生效；需要已安装系统服务。
+
+两者的差别和取舍见[TUN 模式与系统代理有什么区别](/guides/tun-vs-system-proxy/)。日常用浏览器为主开系统代理即可；需要游戏、命令行工具走代理时开 TUN。不要同时依赖两个代理软件。
+
+## 常用设置
+
+- **开机自启 / 静默启动**：设置里打开，开机后自动在托盘运行。
+- **端口**：Clash Verge Rev 默认混合端口为 7897（旧版 Clash 常用 7890）。需要给其他软件手动填代理时用这个端口。
+- **局域网共享**：打开“允许局域网连接”后，同一网络里的其他设备可以把电脑 IP 加端口作为代理。电视、游戏机这类装不了客户端的设备怎么借用、有什么限制，见[一家人多设备共用机场](/guides/multi-device-setup/)。
+- **DNS**：默认由内核处理，一般不用动。遇到解析问题时可以尝试切换“增强模式”（fake-ip 与 redir-host），完整的排查顺序见[DNS 与连接故障排查](/guides/dns-and-connection-troubleshooting/)。
+- **Merge / 脚本**：高级用户可以在订阅之上叠加自己的规则，订阅更新也不会丢。
+
+<InlineBrandRecommendation brand="lingdongyun" note="以官方客户端为主；资料显示符合条件的套餐可向客服申请订阅链接，用于 Clash Verge Rev 等兼容客户端。" />

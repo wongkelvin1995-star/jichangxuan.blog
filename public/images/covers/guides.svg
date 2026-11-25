@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="使用教程">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#2563EB" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1027" cy="119" r="108" stroke="#2563EB" stroke-opacity="0.13" fill="none" stroke-width="1.5"/><circle cx="1056" cy="384" r="88" stroke="#2563EB" stroke-opacity="0.19" fill="none" stroke-width="1.5"/><circle cx="875" cy="165" r="189" stroke="#2563EB" stroke-opacity="0.18" fill="none" stroke-width="1.5"/><path d="M-20 534 C 260 374, 480 505, 760 305 S 1100 474, 1240 394" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 594 C 300 454, 520 545, 800 385 S 1120 554, 1240 474" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="872" y="400" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1054" y="444" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="990" cy="559" r="7" fill="#2563EB" fill-opacity="0.56"/><circle cx="903" cy="276" r="5" fill="#2563EB" fill-opacity="0.46"/><circle cx="1143" cy="342" r="8" fill="#2563EB" fill-opacity="0.52"/><circle cx="1075" cy="437" r="4" fill="#2563EB" fill-opacity="0.45"/><circle cx="965" cy="499" r="4" fill="#2563EB" fill-opacity="0.52"/><circle cx="706" cy="171" r="7" fill="#2563EB" fill-opacity="0.28"/>
+  
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#2563EB"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#2563EB">GUIDES</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="96" font-weight="700" fill="#14273D" letter-spacing="-1">使用教程</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">Windows、Android、iOS 与 Clash</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="FLYV 飞V测评">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0284C7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0284C7" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#0284C7" stroke-opacity="0.08" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1038" cy="349" r="195" stroke="#0284C7" stroke-opacity="0.18" fill="none" stroke-width="1.5"/><circle cx="970" cy="111" r="140" stroke="#0284C7" stroke-opacity="0.14" fill="none" stroke-width="1.5"/><circle cx="798" cy="166" r="67" stroke="#0284C7" stroke-opacity="0.16" fill="none" stroke-width="1.5"/><path d="M-20 521 C 260 361, 480 521, 760 321 S 1100 461, 1240 381" stroke="url(#line)" stroke-width="2.5" fill="none"/><path d="M-20 581 C 300 441, 520 561, 800 401 S 1120 541, 1240 461" stroke="url(#line)" stroke-width="1.5" fill="none"/><rect x="853" y="339" width="200" height="110" rx="18" fill="#DCEBFF" fill-opacity="0.75"/><rect x="1013" y="418" width="150" height="84" rx="14" fill="#DCEBFF" fill-opacity="0.55"/><circle cx="1140" cy="258" r="5" fill="#0284C7" fill-opacity="0.32"/><circle cx="1030" cy="320" r="5" fill="#0284C7" fill-opacity="0.40"/><circle cx="771" cy="492" r="8" fill="#0284C7" fill-opacity="0.51"/><circle cx="748" cy="396" r="6" fill="#0284C7" fill-opacity="0.43"/><circle cx="718" cy="248" r="5" fill="#0284C7" fill-opacity="0.41"/><circle cx="828" cy="302" r="5" fill="#0284C7" fill-opacity="0.53"/>
+  <rect x="900" y="96" width="228" height="56" rx="28" fill="#0284C7" fill-opacity="0.12"/><text x="1014" y="133" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#0284C7">2026 测评</text>
+  <g transform="translate(72 78)">
+    <rect width="56" height="56" rx="14" fill="#0284C7"/>
+    <path d="M14 31 42 16.5 32 42l-5-10.3L14 31Z" fill="#fff" opacity="0.95"/>
+  </g>
+  <text x="72" y="236" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#0284C7">REVIEW · FLYV</text>
+  <text x="72" y="346" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="84" font-weight="700" fill="#14273D" letter-spacing="-1">FLYV 飞V测评</text>
+  <text x="72" y="416" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" fill="#3B4D63">分地区线路与官方客户端</text>
+  <text x="72" y="560" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#5B6B7F">机场优选 · JichangXuan</text>
+</svg>

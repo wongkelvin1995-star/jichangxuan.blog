@@ -1,0 +1,102 @@
+---
+title: "iOS 机场客户端使用教程：App Store 区域、Shadowrocket 与官方客户端"
+seoTitle: "iOS 机场客户端教程：Shadowrocket 与 App Store 区域"
+slug: "ios-client-setup"
+description: "iPhone 和 iPad 上使用机场需要解决的三件事：代理类 App 不在中国区 App Store、Shadowrocket 等客户端如何导入订阅、iOS 的 VPN 配置怎么管理。含订阅更新失败与后台断开的处理。"
+category: "guides"
+tags: ["iOS", "iPhone", "Shadowrocket", "客户端", "订阅"]
+author: "editorial"
+publishedAt: "2026-11-12"
+updatedAt: "2026-11-24"
+cover: "/images/covers/guides.svg"
+coverAlt: "使用教程栏目封面：蓝色线条与抽象图形"
+draft: false
+featured: false
+related: ["android-client-setup", "windows-client-setup", "dns-and-connection-troubleshooting", "lingdongyun-client-guide"]
+summaryPoints:
+  - "中国区 App Store 没有代理类 App，需要一个非中国区的 Apple ID（只登录 App Store，不登录 iCloud）。"
+  - "Shadowrocket、Stash、Loon、Quantumult X 是常见的付费客户端；品牌自己的 iOS 客户端按官方说明安装。"
+  - "导入订阅后，在“设置 → VPN”里能看到客户端创建的 VPN 配置，开关和重连都在那里。"
+  - "订阅更新失败通常是订阅地址需要代理才能访问，先连上旧节点再更新。"
+brand: "lingdongyun"
+faq:
+  - q: "一定要买 Shadowrocket 吗？有免费的选择吗？"
+    a: "不一定。机场如果提供 iOS 官方客户端，按官方说明安装即可；多数第三方客户端为付费软件，价格以 App Store 显示为准。免费软件来源不稳定，本站不推荐具体免费 App。"
+  - q: "切换 Apple ID 后，原来买的 App 还能用吗？"
+    a: "能。已安装的 App 不会因为切换 App Store 账号而消失；更新时需要切回购买它的那个账号。建议只在 App Store 里切换账号，iCloud 保持自己的主账号。"
+  - q: "锁屏一段时间后连接就没了？"
+    a: "iOS 允许 VPN 配置在后台常驻，但客户端 App 本身可能被系统回收。打开“设置 → VPN”确认状态；在客户端里开启“按需连接”或类似选项可以在断开后自动重连。"
+  - q: "订阅更新失败怎么办？"
+    a: "很多机场的订阅地址本身需要代理才能访问。之前连上过的，先用旧节点连接再更新订阅；第一次使用就更新失败，联系机场客服确认订阅地址能否直连。"
+  - q: "节点列表为空或全部超时？"
+    a: "先确认订阅没有过期、流量没有用完，再换网络（Wi‑Fi 与蜂窝互换）试一次。全部超时且换网络也无效，多半是机场端的问题，联系客服。"
+  - q: "连上后部分网站打不开？"
+    a: "常见于 DNS 问题。在 Shadowrocket 的“设置 → DNS”里改用其他 DNS（例如 DoH 服务）再试，或按《DNS 与连接故障排查》的顺序处理。"
+  - q: "开了“低数据模式”有影响吗？"
+    a: "有。蜂窝网络或 Wi‑Fi 开启“低数据模式”时，后台刷新会受限制，可能影响订阅自动更新。需要自动更新订阅时，关闭对应网络的低数据模式。"
+  - q: "在公司或学校网络里所有节点都超时？"
+    a: "部分网络会封锁常见代理端口，表现为所有节点超时，换到蜂窝网络就正常。这是网络环境的限制，不是客户端的问题。"
+changes:
+  - date: "2026-11-24"
+    note: "正文“常见问题”并入文末常见问题；补充 DNS 故障排查、Windows、Android、多设备共用、订阅政策专题与灵动云专区、灵动云客户端教程的链接。"
+---
+
+iOS 上用机场的障碍不在技术，而在 App Store：中国区商店没有代理类应用，所以第一步永远是解决“从哪里下载”。解决之后，导入订阅、连接、验证都比电脑上简单。
+
+## 第一步：解决 App Store 区域
+
+代理类 App 只在非中国区的 App Store 上架。你需要一个美区、港区或其他地区的 Apple ID。
+
+- **只在 App Store 里登录这个账号**。打开 App Store，点右上角头像，退出当前账号，登录非中国区账号。iCloud、iMessage 保持你自己的主账号不动，这样不会影响照片、备份和通讯录。
+- **不要使用网上共享的 Apple ID**。共享账号随时可能被改密码，还可能被用来远程锁定设备。
+- 注册非中国区 Apple ID 的方法不在本文范围内，网上教程很多，核心是地区选择与付款方式填“无”。
+
+## 第二步：选择客户端
+
+### 品牌官方客户端
+
+部分机场提供自己的 iOS 客户端（通过 App Store 或 TestFlight 分发）。如果你的机场提供，优先用它：登录即连，不用管订阅。[灵动云](/lingdongyun/)的资料提到客服可以协助处理 iOS 客户端相关问题，具体安装方式以客服答复为准，本站没有该客户端的安装截图，不在此猜测；它的注册与登录流程见[灵动云客户端使用教程](/lingdongyun/lingdongyun-client-guide/)。
+
+### 第三方客户端
+
+前提是机场给订阅链接；只提供官方客户端的机场用不了这些 App，各家政策见[哪些机场支持 Clash Meta（Mihomo）订阅](/guides/clash-meta-compatible-airports/)。拿到订阅链接的用户常用这几个付费 App（价格以 App Store 为准，会随汇率和地区变化）：
+
+| App | 特点 |
+| --- | --- |
+| Shadowrocket | 最常见，支持主流协议，一次买断 |
+| Stash | 基于 Clash 规则体系，熟悉 Clash 的用户上手快 |
+| Loon | 规则与脚本能力强，偏进阶 |
+| Quantumult X | 功能多，配置复杂，偏进阶 |
+
+新手选 Shadowrocket 即可；下面以它为例。
+
+## 第三步：用 Shadowrocket 导入订阅
+
+1. 打开 Shadowrocket，点右上角“+”。
+2. “类型”选择“Subscribe”，在“URL”里粘贴订阅链接，备注随意，点“完成”。
+3. 回到首页，下拉刷新或在订阅上点“更新”，节点列表会出现。
+4. 点选一个节点（建议先选香港、台湾、日本），打开顶部的连接开关。
+5. 第一次连接时系统会请求“添加 VPN 配置”，输入锁屏密码或用 Face ID 允许。
+6. “全局路由”保持“配置”（按规则分流），不要长期用“代理”（全局）。
+
+验证方法：打开海外网站，或访问 IPCheck.ing 看出口 IP 地区。连上后部分网站打不开，按[DNS 与连接故障排查](/guides/dns-and-connection-troubleshooting/)的顺序处理。
+
+## 第四步：理解 iOS 的 VPN 配置
+
+iOS 把所有代理客户端都当作 VPN 来管理。打开“设置 → VPN”（或“设置 → 通用 → VPN 与设备管理”），能看到客户端创建的配置和当前状态。几件事值得知道：
+
+- 开关可以在这里切换，不必打开 App。
+- 同一时间只能有一个 VPN 配置处于连接状态。
+- 客户端的“按需连接”（On Demand）打开后，系统会在网络变化时自动重连。
+
+## 电脑和家里的其他设备
+
+电脑和安卓手机的步骤见[Windows 客户端教程](/guides/windows-client-setup/)、[Android 客户端教程](/guides/android-client-setup/)。iPhone、iPad 和家里其他设备共用一个套餐时，先看套餐的设备数和流量是否共用，见[一家人多设备共用机场](/guides/multi-device-setup/)。
+
+## 安全提醒
+
+- 不要在 iCloud 里登录共享账号，只在 App Store 登录。
+- 订阅链接不要分享；更换手机时重新导入即可。
+- 系统弹出“添加 VPN 配置”是正常流程；但如果某个 App 要求安装“描述文件”或“证书”才能用，先确认它是官方渠道。
+
+<InlineBrandRecommendation brand="lingdongyun" note="资料显示客服可协助处理 iOS 客户端相关问题；具体安装方式以客服答复为准。" />
